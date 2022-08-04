@@ -317,6 +317,99 @@ MonoScript:
   m_ClassName: SceneObjectIDMapSceneAsset
   m_Namespace: UnityEngine.Rendering.HighDefinition
   m_AssemblyName: 
+--- !u!1 &112764838
+GameObject:
+  m_ObjectHideFlags: 19
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 112764840}
+  - component: {fileID: 112764839}
+  m_Layer: 0
+  m_Name: SceneIDMap
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &112764839
+MonoBehaviour:
+  m_ObjectHideFlags: 19
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 112764838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1409336706}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Entries:
+  - id: 0
+    category: 0
+    gameObject: {fileID: 1213580496}
+  - id: 1
+    category: 0
+    gameObject: {fileID: 352221574}
+  - id: 2
+    category: 0
+    gameObject: {fileID: 1630564728}
+  - id: 3
+    category: 0
+    gameObject: {fileID: 1465520419}
+  - id: 4
+    category: 0
+    gameObject: {fileID: 956065536}
+  - id: 5
+    category: 0
+    gameObject: {fileID: 2010359574}
+  - id: 6
+    category: 0
+    gameObject: {fileID: 1834504469}
+  - id: 7
+    category: 0
+    gameObject: {fileID: 1038729460}
+  - id: 8
+    category: 0
+    gameObject: {fileID: 1991798231}
+  - id: 9
+    category: 0
+    gameObject: {fileID: 1553431996}
+  - id: 10
+    category: 0
+    gameObject: {fileID: 1585892274}
+  - id: 11
+    category: 0
+    gameObject: {fileID: 1986150186}
+  - id: 12
+    category: 0
+    gameObject: {fileID: 1836035709}
+  - id: 13
+    category: 0
+    gameObject: {fileID: 2080379982}
+  - id: 14
+    category: 0
+    gameObject: {fileID: 1371376611}
+  - id: 15
+    category: 0
+    gameObject: {fileID: 963748519}
+--- !u!4 &112764840
+Transform:
+  m_ObjectHideFlags: 19
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 112764838}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &299778456
 GameObject:
   m_ObjectHideFlags: 0
@@ -644,7 +737,7 @@ MonoBehaviour:
     camera:
       camera: 0
   m_ProxyVolume: {fileID: 0}
-  m_BakedTexture: {fileID: 8900000, guid: d754586a741f9b44c9c457bc8ad8390e, type: 3}
+  m_BakedTexture: {fileID: 8900000, guid: 8a40ca1822c70f64dac417f1e02c965f, type: 3}
   m_CustomTexture: {fileID: 0}
   m_BakedRenderData:
     m_WorldToCameraRHS:
@@ -724,37 +817,37 @@ MonoBehaviour:
     m_CaptureRotation: {x: 0, y: 0, z: 0, w: 0}
     m_FieldOfView: 0
     m_Aspect: 0
-  m_HasValidSHForNormalization: 0
+  m_HasValidSHForNormalization: 1
   m_SHForNormalization:
-    sh[ 0]: 0
-    sh[ 1]: 0
-    sh[ 2]: 0
-    sh[ 3]: 0
-    sh[ 4]: 0
-    sh[ 5]: 0
-    sh[ 6]: 0
-    sh[ 7]: 0
-    sh[ 8]: 0
-    sh[ 9]: 0
-    sh[10]: 0
-    sh[11]: 0
-    sh[12]: 0
-    sh[13]: 0
-    sh[14]: 0
-    sh[15]: 0
-    sh[16]: 0
-    sh[17]: 0
-    sh[18]: 0
-    sh[19]: 0
-    sh[20]: 0
-    sh[21]: 0
-    sh[22]: 0
-    sh[23]: 0
-    sh[24]: 0
-    sh[25]: 0
-    sh[26]: 0
-  m_SHValidForCapturePosition: {x: 0, y: 0, z: 0}
-  m_SHValidForSourcePosition: {x: 0, y: 0, z: 0}
+    sh[ 0]: 290.87488
+    sh[ 1]: 54.92378
+    sh[ 2]: 129.33737
+    sh[ 3]: -132.24727
+    sh[ 4]: -10.41795
+    sh[ 5]: 15.327396
+    sh[ 6]: 0.2277807
+    sh[ 7]: -45.821053
+    sh[ 8]: 2.0252876
+    sh[ 9]: 222.12292
+    sh[10]: 71.888054
+    sh[11]: 87.73227
+    sh[12]: -90.49873
+    sh[13]: -8.614931
+    sh[14]: 13.319481
+    sh[15]: -1.2117256
+    sh[16]: -27.641838
+    sh[17]: -6.08415
+    sh[18]: 220.74765
+    sh[19]: 127.42831
+    sh[20]: 69.33989
+    sh[21]: -70.427826
+    sh[22]: -11.621979
+    sh[23]: 16.688387
+    sh[24]: -3.9298255
+    sh[25]: -16.52808
+    sh[26]: -18.742023
+  m_SHValidForCapturePosition: {x: 1.608, y: 1.288, z: -4.961}
+  m_SHValidForSourcePosition: {x: 1.608, y: 1.288, z: -4.961}
   m_HDProbeVersion: 3
   m_ObsoleteInfiniteProjection: 0
   m_ObsoleteInfluenceVolume:
@@ -992,7 +1085,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &494845659
 Transform:
   m_ObjectHideFlags: 0
@@ -1945,6 +2038,80 @@ LightProbeGroup:
   - {x: 3.895953, y: 0.53947866, z: -5.857826}
   - {x: 3.895953, y: 0.53947866, z: -7.397458}
   m_Dering: 1
+--- !u!1 &847681233
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 847681235}
+  - component: {fileID: 847681234}
+  m_Layer: 0
+  m_Name: Probe Volume
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &847681234
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 847681233}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cded085d155cde949b60f67a11dbc3bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  globalVolume: 0
+  size: {x: 21.34239, y: 14.833135, z: 34.07839}
+  overrideRendererFilters: 0
+  minRendererVolumeSize: 0.1
+  objectLayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  lowestSubdivLevelOverride: 0
+  highestSubdivLevelOverride: -1
+  overridesSubdivLevels: 0
+  mightNeedRebaking: 0
+  cachedTransform:
+    e00: 1
+    e01: 0
+    e02: 0
+    e03: -0
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: -5.7924953
+    e20: 0
+    e21: 0
+    e22: 1
+    e23: -0
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  cachedHashCode: 1885302472
+  fillEmptySpaces: 0
+--- !u!4 &847681235
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 847681233}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 5.7924953, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &956065536
 GameObject:
   m_ObjectHideFlags: 0
@@ -2170,7 +2337,7 @@ MonoBehaviour:
     camera:
       camera: 0
   m_ProxyVolume: {fileID: 0}
-  m_BakedTexture: {fileID: 8900000, guid: 5aa47bcce9900144ea16daa9f8761f62, type: 3}
+  m_BakedTexture: {fileID: 8900000, guid: 1b95d9967c2b12c4587806c32b2f45af, type: 3}
   m_CustomTexture: {fileID: 0}
   m_BakedRenderData:
     m_WorldToCameraRHS:
@@ -2250,37 +2417,37 @@ MonoBehaviour:
     m_CaptureRotation: {x: 0, y: 0, z: 0, w: 0}
     m_FieldOfView: 0
     m_Aspect: 0
-  m_HasValidSHForNormalization: 0
+  m_HasValidSHForNormalization: 1
   m_SHForNormalization:
-    sh[ 0]: 0
-    sh[ 1]: 0
-    sh[ 2]: 0
-    sh[ 3]: 0
-    sh[ 4]: 0
-    sh[ 5]: 0
-    sh[ 6]: 0
-    sh[ 7]: 0
-    sh[ 8]: 0
-    sh[ 9]: 0
-    sh[10]: 0
-    sh[11]: 0
-    sh[12]: 0
-    sh[13]: 0
-    sh[14]: 0
-    sh[15]: 0
-    sh[16]: 0
-    sh[17]: 0
-    sh[18]: 0
-    sh[19]: 0
-    sh[20]: 0
-    sh[21]: 0
-    sh[22]: 0
-    sh[23]: 0
-    sh[24]: 0
-    sh[25]: 0
-    sh[26]: 0
-  m_SHValidForCapturePosition: {x: 0, y: 0, z: 0}
-  m_SHValidForSourcePosition: {x: 0, y: 0, z: 0}
+    sh[ 0]: 83.93781
+    sh[ 1]: 16.375486
+    sh[ 2]: 70.52765
+    sh[ 3]: 1.7164412
+    sh[ 4]: -0.29723537
+    sh[ 5]: 7.2864833
+    sh[ 6]: 4.9690824
+    sh[ 7]: -0.2089984
+    sh[ 8]: -0.3656022
+    sh[ 9]: 59.258736
+    sh[10]: 13.932438
+    sh[11]: 50.891453
+    sh[12]: -0.14308694
+    sh[13]: -0.17860992
+    sh[14]: 6.369037
+    sh[15]: 3.5722196
+    sh[16]: -0.57005715
+    sh[17]: -0.8003525
+    sh[18]: 47.54828
+    sh[19]: 13.670036
+    sh[20]: 42.426
+    sh[21]: -1.0179437
+    sh[22]: -0.10270869
+    sh[23]: 6.484976
+    sh[24]: 2.913618
+    sh[25]: -0.66285205
+    sh[26]: -1.2342892
+  m_SHValidForCapturePosition: {x: 0, y: 1.6829665, z: -10.38751}
+  m_SHValidForSourcePosition: {x: 0, y: 1.6829665, z: -9.890993}
   m_HDProbeVersion: 3
   m_ObsoleteInfiniteProjection: 1
   m_ObsoleteInfluenceVolume:
@@ -2691,7 +2858,7 @@ MonoBehaviour:
     camera:
       camera: 0
   m_ProxyVolume: {fileID: 987584266}
-  m_BakedTexture: {fileID: 8900000, guid: c49f95ffb1c32d74abf66d327b0efe17, type: 3}
+  m_BakedTexture: {fileID: 8900000, guid: 663dde43fee4b884ea1e464cdf61bdae, type: 3}
   m_CustomTexture: {fileID: 0}
   m_BakedRenderData:
     m_WorldToCameraRHS:
@@ -2771,37 +2938,37 @@ MonoBehaviour:
     m_CaptureRotation: {x: 0, y: 0, z: 0, w: 0}
     m_FieldOfView: 0
     m_Aspect: 0
-  m_HasValidSHForNormalization: 0
+  m_HasValidSHForNormalization: 1
   m_SHForNormalization:
-    sh[ 0]: 0
-    sh[ 1]: 0
-    sh[ 2]: 0
-    sh[ 3]: 0
-    sh[ 4]: 0
-    sh[ 5]: 0
-    sh[ 6]: 0
-    sh[ 7]: 0
-    sh[ 8]: 0
-    sh[ 9]: 0
-    sh[10]: 0
-    sh[11]: 0
-    sh[12]: 0
-    sh[13]: 0
-    sh[14]: 0
-    sh[15]: 0
-    sh[16]: 0
-    sh[17]: 0
-    sh[18]: 0
-    sh[19]: 0
-    sh[20]: 0
-    sh[21]: 0
-    sh[22]: 0
-    sh[23]: 0
-    sh[24]: 0
-    sh[25]: 0
-    sh[26]: 0
-  m_SHValidForCapturePosition: {x: 0, y: 0, z: 0}
-  m_SHValidForSourcePosition: {x: 0, y: 0, z: 0}
+    sh[ 0]: 300.95132
+    sh[ 1]: -82.14459
+    sh[ 2]: 53.043198
+    sh[ 3]: 168.41127
+    sh[ 4]: -61.344627
+    sh[ 5]: -8.83008
+    sh[ 6]: 1.6441169
+    sh[ 7]: 15.622832
+    sh[ 8]: 15.525305
+    sh[ 9]: 184.87895
+    sh[10]: -56.653915
+    sh[11]: 34.249046
+    sh[12]: 107.71969
+    sh[13]: -39.491913
+    sh[14]: -5.6061344
+    sh[15]: 0.94007254
+    sh[16]: 10.243202
+    sh[17]: 9.901816
+    sh[18]: 112.79876
+    sh[19]: -41.618534
+    sh[20]: 20.695974
+    sh[21]: 71.07335
+    sh[22]: -25.312204
+    sh[23]: -3.4387155
+    sh[24]: 0.37607554
+    sh[25]: 6.129013
+    sh[26]: 5.9837065
+  m_SHValidForCapturePosition: {x: -3.85278, y: 5.62, z: 0}
+  m_SHValidForSourcePosition: {x: -3.8, y: 5.7788343, z: 0}
   m_HDProbeVersion: 3
   m_ObsoleteInfiniteProjection: 1
   m_ObsoleteInfluenceVolume:
@@ -3434,7 +3601,7 @@ MonoBehaviour:
     camera:
       camera: 0
   m_ProxyVolume: {fileID: 0}
-  m_BakedTexture: {fileID: 8900000, guid: 23b5836c9e259714882389a893cff014, type: 3}
+  m_BakedTexture: {fileID: 8900000, guid: c49f95ffb1c32d74abf66d327b0efe17, type: 3}
   m_CustomTexture: {fileID: 0}
   m_BakedRenderData:
     m_WorldToCameraRHS:
@@ -3514,37 +3681,37 @@ MonoBehaviour:
     m_CaptureRotation: {x: 0, y: 0, z: 0, w: 0}
     m_FieldOfView: 0
     m_Aspect: 0
-  m_HasValidSHForNormalization: 0
+  m_HasValidSHForNormalization: 1
   m_SHForNormalization:
-    sh[ 0]: 0
-    sh[ 1]: 0
-    sh[ 2]: 0
-    sh[ 3]: 0
-    sh[ 4]: 0
-    sh[ 5]: 0
-    sh[ 6]: 0
-    sh[ 7]: 0
-    sh[ 8]: 0
-    sh[ 9]: 0
-    sh[10]: 0
-    sh[11]: 0
-    sh[12]: 0
-    sh[13]: 0
-    sh[14]: 0
-    sh[15]: 0
-    sh[16]: 0
-    sh[17]: 0
-    sh[18]: 0
-    sh[19]: 0
-    sh[20]: 0
-    sh[21]: 0
-    sh[22]: 0
-    sh[23]: 0
-    sh[24]: 0
-    sh[25]: 0
-    sh[26]: 0
-  m_SHValidForCapturePosition: {x: 0, y: 0, z: 0}
-  m_SHValidForSourcePosition: {x: 0, y: 0, z: 0}
+    sh[ 0]: 457.4039
+    sh[ 1]: 76.75941
+    sh[ 2]: -2.3378253
+    sh[ 3]: -238.11081
+    sh[ 4]: 1.0397071
+    sh[ 5]: 5.9295616
+    sh[ 6]: -6.3045945
+    sh[ 7]: -2.3819165
+    sh[ 8]: 10.720987
+    sh[ 9]: 330.03738
+    sh[10]: 89.60106
+    sh[11]: -13.65938
+    sh[12]: -155.95627
+    sh[13]: -3.2356467
+    sh[14]: -1.1390172
+    sh[15]: -5.220578
+    sh[16]: -0.9119804
+    sh[17]: 0.49701142
+    sh[18]: 306.67435
+    sh[19]: 151.4507
+    sh[20]: -38.51433
+    sh[21]: -110.65656
+    sh[22]: -9.502871
+    sh[23]: -13.603496
+    sh[24]: -6.0950413
+    sh[25]: 1.2120124
+    sh[26]: -13.420295
+  m_SHValidForCapturePosition: {x: 1.608, y: 1.288, z: 4.874}
+  m_SHValidForSourcePosition: {x: 1.608, y: 1.288, z: 4.874}
   m_HDProbeVersion: 3
   m_ObsoleteInfiniteProjection: 0
   m_ObsoleteInfluenceVolume:
@@ -3957,7 +4124,7 @@ MonoBehaviour:
     camera:
       camera: 0
   m_ProxyVolume: {fileID: 0}
-  m_BakedTexture: {fileID: 8900000, guid: 1b95d9967c2b12c4587806c32b2f45af, type: 3}
+  m_BakedTexture: {fileID: 8900000, guid: f27053b78ef1df3469cc2ff748931101, type: 3}
   m_CustomTexture: {fileID: 0}
   m_BakedRenderData:
     m_WorldToCameraRHS:
@@ -4037,37 +4204,37 @@ MonoBehaviour:
     m_CaptureRotation: {x: 0, y: 0, z: 0, w: 0}
     m_FieldOfView: 0
     m_Aspect: 0
-  m_HasValidSHForNormalization: 0
+  m_HasValidSHForNormalization: 1
   m_SHForNormalization:
-    sh[ 0]: 0
-    sh[ 1]: 0
-    sh[ 2]: 0
-    sh[ 3]: 0
-    sh[ 4]: 0
-    sh[ 5]: 0
-    sh[ 6]: 0
-    sh[ 7]: 0
-    sh[ 8]: 0
-    sh[ 9]: 0
-    sh[10]: 0
-    sh[11]: 0
-    sh[12]: 0
-    sh[13]: 0
-    sh[14]: 0
-    sh[15]: 0
-    sh[16]: 0
-    sh[17]: 0
-    sh[18]: 0
-    sh[19]: 0
-    sh[20]: 0
-    sh[21]: 0
-    sh[22]: 0
-    sh[23]: 0
-    sh[24]: 0
-    sh[25]: 0
-    sh[26]: 0
-  m_SHValidForCapturePosition: {x: 0, y: 0, z: 0}
-  m_SHValidForSourcePosition: {x: 0, y: 0, z: 0}
+    sh[ 0]: 755.3693
+    sh[ 1]: -104.03833
+    sh[ 2]: 92.86169
+    sh[ 3]: -406.25922
+    sh[ 4]: 70.08183
+    sh[ 5]: -3.1693127
+    sh[ 6]: -5.4338627
+    sh[ 7]: -17.520582
+    sh[ 8]: -1.3498998
+    sh[ 9]: 529.2897
+    sh[10]: -3.9592755
+    sh[11]: 55.655647
+    sh[12]: -244.34428
+    sh[13]: 43.37181
+    sh[14]: -3.627387
+    sh[15]: -5.393649
+    sh[16]: -10.804105
+    sh[17]: -10.357336
+    sh[18]: 455.4234
+    sh[19]: 132.83679
+    sh[20]: 22.222692
+    sh[21]: -135.51883
+    sh[22]: 26.076372
+    sh[23]: -8.4667
+    sh[24]: -7.653249
+    sh[25]: -6.5030613
+    sh[26]: -26.00155
+  m_SHValidForCapturePosition: {x: 0, y: 1.5842488, z: 0}
+  m_SHValidForSourcePosition: {x: 0, y: 2.2011898, z: 0}
   m_HDProbeVersion: 3
   m_ObsoleteInfiniteProjection: 1
   m_ObsoleteInfluenceVolume:
@@ -4205,6 +4372,61 @@ ReflectionProbe:
   m_UseOcclusionCulling: 1
   m_Importance: 1
   m_CustomBakedTexture: {fileID: 0}
+--- !u!1 &1248347351
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1248347353}
+  - component: {fileID: 1248347352}
+  m_Layer: 0
+  m_Name: ProbeVolumePerSceneData
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1248347352
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1248347351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a83d2f7ae04ab6f4f99b0d85377be998, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  asset: {fileID: 11400000, guid: e9817ce5a0e9bca468abbf836190369d, type: 2}
+  cellSharedDataAsset: {fileID: 4900000, guid: 0660e42b9f5d4b54db029673786d5434, type: 3}
+  cellSupportDataAsset: {fileID: 4900000, guid: cf66a3b06f2d6c141972ada247f255a3,
+    type: 3}
+  serializedScenarios:
+  - scenario: Default
+    data:
+      sceneHash: -1888145385
+      cellDataAsset: {fileID: 4900000, guid: e9b8ee4c9ac87e847b2cebecaebfd950, type: 3}
+      cellOptionalDataAsset: {fileID: 4900000, guid: 4419f80878142e74bab8a7a5bfc83002,
+        type: 3}
+--- !u!4 &1248347353
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1248347351}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1277136378
 GameObject:
   m_ObjectHideFlags: 0
@@ -4463,7 +4685,7 @@ MonoBehaviour:
     camera:
       camera: 0
   m_ProxyVolume: {fileID: 0}
-  m_BakedTexture: {fileID: 8900000, guid: d05eafbac5bdc7741b7afe2bfb445188, type: 3}
+  m_BakedTexture: {fileID: 8900000, guid: d7fa957200340704db7ae13270ac4133, type: 3}
   m_CustomTexture: {fileID: 0}
   m_BakedRenderData:
     m_WorldToCameraRHS:
@@ -4543,37 +4765,37 @@ MonoBehaviour:
     m_CaptureRotation: {x: 0, y: 0, z: 0, w: 0}
     m_FieldOfView: 0
     m_Aspect: 0
-  m_HasValidSHForNormalization: 0
+  m_HasValidSHForNormalization: 1
   m_SHForNormalization:
-    sh[ 0]: 0
-    sh[ 1]: 0
-    sh[ 2]: 0
-    sh[ 3]: 0
-    sh[ 4]: 0
-    sh[ 5]: 0
-    sh[ 6]: 0
-    sh[ 7]: 0
-    sh[ 8]: 0
-    sh[ 9]: 0
-    sh[10]: 0
-    sh[11]: 0
-    sh[12]: 0
-    sh[13]: 0
-    sh[14]: 0
-    sh[15]: 0
-    sh[16]: 0
-    sh[17]: 0
-    sh[18]: 0
-    sh[19]: 0
-    sh[20]: 0
-    sh[21]: 0
-    sh[22]: 0
-    sh[23]: 0
-    sh[24]: 0
-    sh[25]: 0
-    sh[26]: 0
-  m_SHValidForCapturePosition: {x: 0, y: 0, z: 0}
-  m_SHValidForSourcePosition: {x: 0, y: 0, z: 0}
+    sh[ 0]: 197.74808
+    sh[ 1]: -23.695957
+    sh[ 2]: -112.9237
+    sh[ 3]: -68.549965
+    sh[ 4]: 9.201398
+    sh[ 5]: 5.5612316
+    sh[ 6]: 6.3506784
+    sh[ 7]: 20.9759
+    sh[ 8]: -0.062400408
+    sh[ 9]: 126.968414
+    sh[10]: -13.165323
+    sh[11]: -80.92333
+    sh[12]: -39.65685
+    sh[13]: 5.7134323
+    sh[14]: 1.5820689
+    sh[15]: 4.323634
+    sh[16]: 13.768213
+    sh[17]: -0.75859946
+    sh[18]: 92.986465
+    sh[19]: -2.0901139
+    sh[20]: -68.353714
+    sh[21]: -21.388542
+    sh[22]: 3.117196
+    sh[23]: -3.343772
+    sh[24]: 3.575471
+    sh[25]: 8.705297
+    sh[26]: -1.677651
+  m_SHValidForCapturePosition: {x: 0, y: 1.6488445, z: 10.371147}
+  m_SHValidForSourcePosition: {x: 0, y: 1.6829665, z: 9.89}
   m_HDProbeVersion: 3
   m_ObsoleteInfiniteProjection: 1
   m_ObsoleteInfluenceVolume:
@@ -4711,6 +4933,21 @@ ReflectionProbe:
   m_UseOcclusionCulling: 1
   m_Importance: 1
   m_CustomBakedTexture: {fileID: 0}
+--- !u!115 &1409336706
+MonoScript:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  serializedVersion: 7
+  m_DefaultReferences: {}
+  m_Icon: {fileID: 0}
+  m_Type: 0
+  m_ExecutionOrder: 0
+  m_ClassName: SceneObjectIDMapSceneAsset
+  m_Namespace: UnityEngine.Rendering.HighDefinition
+  m_AssemblyName: Unity.RenderPipelines.HighDefinition.Runtime
 --- !u!1 &1465520419
 GameObject:
   m_ObjectHideFlags: 0
@@ -4921,7 +5158,7 @@ MonoBehaviour:
     camera:
       camera: 0
   m_ProxyVolume: {fileID: 0}
-  m_BakedTexture: {fileID: 8900000, guid: 8a40ca1822c70f64dac417f1e02c965f, type: 3}
+  m_BakedTexture: {fileID: 8900000, guid: 33777fd760b9b6c4ea611352afcc8ae9, type: 3}
   m_CustomTexture: {fileID: 0}
   m_BakedRenderData:
     m_WorldToCameraRHS:
@@ -5001,37 +5238,37 @@ MonoBehaviour:
     m_CaptureRotation: {x: 0, y: 0, z: 0, w: 0}
     m_FieldOfView: 0
     m_Aspect: 0
-  m_HasValidSHForNormalization: 0
+  m_HasValidSHForNormalization: 1
   m_SHForNormalization:
-    sh[ 0]: 0
-    sh[ 1]: 0
-    sh[ 2]: 0
-    sh[ 3]: 0
-    sh[ 4]: 0
-    sh[ 5]: 0
-    sh[ 6]: 0
-    sh[ 7]: 0
-    sh[ 8]: 0
-    sh[ 9]: 0
-    sh[10]: 0
-    sh[11]: 0
-    sh[12]: 0
-    sh[13]: 0
-    sh[14]: 0
-    sh[15]: 0
-    sh[16]: 0
-    sh[17]: 0
-    sh[18]: 0
-    sh[19]: 0
-    sh[20]: 0
-    sh[21]: 0
-    sh[22]: 0
-    sh[23]: 0
-    sh[24]: 0
-    sh[25]: 0
-    sh[26]: 0
-  m_SHValidForCapturePosition: {x: 0, y: 0, z: 0}
-  m_SHValidForSourcePosition: {x: 0, y: 0, z: 0}
+    sh[ 0]: 183.39941
+    sh[ 1]: 5.4707155
+    sh[ 2]: 24.738798
+    sh[ 3]: -122.644844
+    sh[ 4]: -0.17167228
+    sh[ 5]: -0.11900806
+    sh[ 6]: -3.6821995
+    sh[ 7]: -5.504736
+    sh[ 8]: 13.945047
+    sh[ 9]: 113.17956
+    sh[10]: 3.674049
+    sh[11]: 16.205484
+    sh[12]: -81.02213
+    sh[13]: 0.036675867
+    sh[14]: 0.10095248
+    sh[15]: -2.4304678
+    sh[16]: -4.196697
+    sh[17]: 8.915156
+    sh[18]: 66.46776
+    sh[19]: 0.6978645
+    sh[20]: 10.338152
+    sh[21]: -51.35957
+    sh[22]: 0.5315247
+    sh[23]: 0.09622543
+    sh[24]: -1.5104765
+    sh[25]: -3.1395023
+    sh[26]: 5.3818536
+  m_SHValidForCapturePosition: {x: 4.0077605, y: 1.6829665, z: 0}
+  m_SHValidForSourcePosition: {x: 4.0077605, y: 1.6829665, z: 0}
   m_HDProbeVersion: 3
   m_ObsoleteInfiniteProjection: 1
   m_ObsoleteInfluenceVolume:
@@ -5409,7 +5646,7 @@ MonoBehaviour:
     camera:
       camera: 0
   m_ProxyVolume: {fileID: 987584266}
-  m_BakedTexture: {fileID: 8900000, guid: f45eb5a27bc46d145be28d4a4b330f89, type: 3}
+  m_BakedTexture: {fileID: 8900000, guid: 23b5836c9e259714882389a893cff014, type: 3}
   m_CustomTexture: {fileID: 0}
   m_BakedRenderData:
     m_WorldToCameraRHS:
@@ -5489,37 +5726,37 @@ MonoBehaviour:
     m_CaptureRotation: {x: 0, y: 0, z: 0, w: 0}
     m_FieldOfView: 0
     m_Aspect: 0
-  m_HasValidSHForNormalization: 0
+  m_HasValidSHForNormalization: 1
   m_SHForNormalization:
-    sh[ 0]: 0
-    sh[ 1]: 0
-    sh[ 2]: 0
-    sh[ 3]: 0
-    sh[ 4]: 0
-    sh[ 5]: 0
-    sh[ 6]: 0
-    sh[ 7]: 0
-    sh[ 8]: 0
-    sh[ 9]: 0
-    sh[10]: 0
-    sh[11]: 0
-    sh[12]: 0
-    sh[13]: 0
-    sh[14]: 0
-    sh[15]: 0
-    sh[16]: 0
-    sh[17]: 0
-    sh[18]: 0
-    sh[19]: 0
-    sh[20]: 0
-    sh[21]: 0
-    sh[22]: 0
-    sh[23]: 0
-    sh[24]: 0
-    sh[25]: 0
-    sh[26]: 0
-  m_SHValidForCapturePosition: {x: 0, y: 0, z: 0}
-  m_SHValidForSourcePosition: {x: 0, y: 0, z: 0}
+    sh[ 0]: 123.68196
+    sh[ 1]: 5.611992
+    sh[ 2]: 17.470255
+    sh[ 3]: -80.07314
+    sh[ 4]: 1.7406847
+    sh[ 5]: -1.7231303
+    sh[ 6]: -1.555234
+    sh[ 7]: -3.7708821
+    sh[ 8]: 7.072373
+    sh[ 9]: 78.14137
+    sh[10]: 0.95443845
+    sh[11]: 9.831216
+    sh[12]: -53.555927
+    sh[13]: 1.0625879
+    sh[14]: -0.8967308
+    sh[15]: -0.9584033
+    sh[16]: -2.097436
+    sh[17]: 4.904505
+    sh[18]: 50.967533
+    sh[19]: -1.4003325
+    sh[20]: 4.9168363
+    sh[21]: -37.53459
+    sh[22]: 0.39908475
+    sh[23]: -0.3466855
+    sh[24]: -0.6253353
+    sh[25]: -1.0661602
+    sh[26]: 3.4763904
+  m_SHValidForCapturePosition: {x: 3.8882582, y: 5.62, z: 0}
+  m_SHValidForSourcePosition: {x: 3.823574, y: 5.7788343, z: 0}
   m_HDProbeVersion: 3
   m_ObsoleteInfiniteProjection: 1
   m_ObsoleteInfluenceVolume:
@@ -5884,7 +6121,7 @@ MonoBehaviour:
     camera:
       camera: 0
   m_ProxyVolume: {fileID: 0}
-  m_BakedTexture: {fileID: 8900000, guid: d7fa957200340704db7ae13270ac4133, type: 3}
+  m_BakedTexture: {fileID: 8900000, guid: 3cbeb065b6ea5624f8c84691cda2ae31, type: 3}
   m_CustomTexture: {fileID: 0}
   m_BakedRenderData:
     m_WorldToCameraRHS:
@@ -5964,37 +6201,37 @@ MonoBehaviour:
     m_CaptureRotation: {x: 0, y: 0, z: 0, w: 0}
     m_FieldOfView: 0
     m_Aspect: 0
-  m_HasValidSHForNormalization: 0
+  m_HasValidSHForNormalization: 1
   m_SHForNormalization:
-    sh[ 0]: 0
-    sh[ 1]: 0
-    sh[ 2]: 0
-    sh[ 3]: 0
-    sh[ 4]: 0
-    sh[ 5]: 0
-    sh[ 6]: 0
-    sh[ 7]: 0
-    sh[ 8]: 0
-    sh[ 9]: 0
-    sh[10]: 0
-    sh[11]: 0
-    sh[12]: 0
-    sh[13]: 0
-    sh[14]: 0
-    sh[15]: 0
-    sh[16]: 0
-    sh[17]: 0
-    sh[18]: 0
-    sh[19]: 0
-    sh[20]: 0
-    sh[21]: 0
-    sh[22]: 0
-    sh[23]: 0
-    sh[24]: 0
-    sh[25]: 0
-    sh[26]: 0
-  m_SHValidForCapturePosition: {x: 0, y: 0, z: 0}
-  m_SHValidForSourcePosition: {x: 0, y: 0, z: 0}
+    sh[ 0]: 485.174
+    sh[ 1]: -76.71875
+    sh[ 2]: 312.67465
+    sh[ 3]: -26.492702
+    sh[ 4]: 22.269913
+    sh[ 5]: -54.777275
+    sh[ 6]: 12.531159
+    sh[ 7]: -18.561357
+    sh[ 8]: -26.222153
+    sh[ 9]: 361.41376
+    sh[10]: 10.532513
+    sh[11]: 205.75505
+    sh[12]: -3.3929377
+    sh[13]: 18.010075
+    sh[14]: -27.132782
+    sh[15]: 5.341551
+    sh[16]: -9.510015
+    sh[17]: -24.483017
+    sh[18]: 331.77948
+    sh[19]: 120.80915
+    sh[20]: 143.51064
+    sh[21]: 21.553871
+    sh[22]: 19.31308
+    sh[23]: -4.458482
+    sh[24]: -1.0891697
+    sh[25]: -3.0089557
+    sh[26]: -29.858181
+  m_SHValidForCapturePosition: {x: -1.606, y: 1.288, z: -4.961}
+  m_SHValidForSourcePosition: {x: -1.606, y: 1.288, z: -4.961}
   m_HDProbeVersion: 3
   m_ObsoleteInfiniteProjection: 0
   m_ObsoleteInfluenceVolume:
@@ -6422,7 +6659,7 @@ MonoBehaviour:
     camera:
       camera: 0
   m_ProxyVolume: {fileID: 987584266}
-  m_BakedTexture: {fileID: 8900000, guid: 33777fd760b9b6c4ea611352afcc8ae9, type: 3}
+  m_BakedTexture: {fileID: 8900000, guid: f45eb5a27bc46d145be28d4a4b330f89, type: 3}
   m_CustomTexture: {fileID: 0}
   m_BakedRenderData:
     m_WorldToCameraRHS:
@@ -6502,37 +6739,37 @@ MonoBehaviour:
     m_CaptureRotation: {x: 0, y: 0, z: 0, w: 0}
     m_FieldOfView: 0
     m_Aspect: 0
-  m_HasValidSHForNormalization: 0
+  m_HasValidSHForNormalization: 1
   m_SHForNormalization:
-    sh[ 0]: 0
-    sh[ 1]: 0
-    sh[ 2]: 0
-    sh[ 3]: 0
-    sh[ 4]: 0
-    sh[ 5]: 0
-    sh[ 6]: 0
-    sh[ 7]: 0
-    sh[ 8]: 0
-    sh[ 9]: 0
-    sh[10]: 0
-    sh[11]: 0
-    sh[12]: 0
-    sh[13]: 0
-    sh[14]: 0
-    sh[15]: 0
-    sh[16]: 0
-    sh[17]: 0
-    sh[18]: 0
-    sh[19]: 0
-    sh[20]: 0
-    sh[21]: 0
-    sh[22]: 0
-    sh[23]: 0
-    sh[24]: 0
-    sh[25]: 0
-    sh[26]: 0
-  m_SHValidForCapturePosition: {x: 0, y: 0, z: 0}
-  m_SHValidForSourcePosition: {x: 0, y: 0, z: 0}
+    sh[ 0]: 231.72287
+    sh[ 1]: -67.58828
+    sh[ 2]: -116.40815
+    sh[ 3]: -81.71142
+    sh[ 4]: 19.890614
+    sh[ 5]: 19.502918
+    sh[ 6]: 4.9498606
+    sh[ 7]: 27.381502
+    sh[ 8]: -2.072782
+    sh[ 9]: 147.53029
+    sh[10]: -39.952637
+    sh[11]: -79.41116
+    sh[12]: -50.9637
+    sh[13]: 12.052712
+    sh[14]: 10.349319
+    sh[15]: 3.468491
+    sh[16]: 17.158829
+    sh[17]: -1.4302918
+    sh[18]: 101.12556
+    sh[19]: -19.564667
+    sh[20]: -62.1427
+    sh[21]: -30.773157
+    sh[22]: 6.6995835
+    sh[23]: 2.6417766
+    sh[24]: 3.0140672
+    sh[25]: 10.516558
+    sh[26]: -1.34141
+  m_SHValidForCapturePosition: {x: 0, y: 5.62, z: 10.383014}
+  m_SHValidForSourcePosition: {x: 0, y: 5.7788343, z: 10.535}
   m_HDProbeVersion: 3
   m_ObsoleteInfiniteProjection: 1
   m_ObsoleteInfluenceVolume:
@@ -7522,7 +7759,7 @@ MonoBehaviour:
     camera:
       camera: 0
   m_ProxyVolume: {fileID: 0}
-  m_BakedTexture: {fileID: 8900000, guid: 9f55fbf8bd01bcf408ea195fa62f9c4f, type: 3}
+  m_BakedTexture: {fileID: 8900000, guid: ff9e7b2f562503b4c8d56dc3bbda121d, type: 3}
   m_CustomTexture: {fileID: 0}
   m_BakedRenderData:
     m_WorldToCameraRHS:
@@ -7602,37 +7839,37 @@ MonoBehaviour:
     m_CaptureRotation: {x: 0, y: 0, z: 0, w: 0}
     m_FieldOfView: 0
     m_Aspect: 0
-  m_HasValidSHForNormalization: 0
+  m_HasValidSHForNormalization: 1
   m_SHForNormalization:
-    sh[ 0]: 0
-    sh[ 1]: 0
-    sh[ 2]: 0
-    sh[ 3]: 0
-    sh[ 4]: 0
-    sh[ 5]: 0
-    sh[ 6]: 0
-    sh[ 7]: 0
-    sh[ 8]: 0
-    sh[ 9]: 0
-    sh[10]: 0
-    sh[11]: 0
-    sh[12]: 0
-    sh[13]: 0
-    sh[14]: 0
-    sh[15]: 0
-    sh[16]: 0
-    sh[17]: 0
-    sh[18]: 0
-    sh[19]: 0
-    sh[20]: 0
-    sh[21]: 0
-    sh[22]: 0
-    sh[23]: 0
-    sh[24]: 0
-    sh[25]: 0
-    sh[26]: 0
-  m_SHValidForCapturePosition: {x: 0, y: 0, z: 0}
-  m_SHValidForSourcePosition: {x: 0, y: 0, z: 0}
+    sh[ 0]: 997.037
+    sh[ 1]: -122.41525
+    sh[ 2]: 183.9687
+    sh[ 3]: -384.01877
+    sh[ 4]: 162.34065
+    sh[ 5]: -27.062489
+    sh[ 6]: -14.286662
+    sh[ 7]: -35.647114
+    sh[ 8]: -71.89901
+    sh[ 9]: 792.5708
+    sh[10]: 121.17976
+    sh[11]: 95.630295
+    sh[12]: -238.3814
+    sh[13]: 111.07011
+    sh[14]: -27.850971
+    sh[15]: -14.471245
+    sh[16]: -22.367754
+    sh[17]: -81.54536
+    sh[18]: 826.7358
+    sh[19]: 482.08453
+    sh[20]: 1.0874681
+    sh[21]: -128.74042
+    sh[22]: 86.4491
+    sh[23]: -54.148014
+    sh[24]: -20.732786
+    sh[25]: -15.845656
+    sh[26]: -125.55838
+  m_SHValidForCapturePosition: {x: -0.18611145, y: 5.9465294, z: 0}
+  m_SHValidForSourcePosition: {x: -0.18611145, y: 5.9465294, z: 0}
   m_HDProbeVersion: 3
   m_ObsoleteInfiniteProjection: 1
   m_ObsoleteInfluenceVolume:
@@ -7982,7 +8219,7 @@ MonoBehaviour:
     camera:
       camera: 0
   m_ProxyVolume: {fileID: 0}
-  m_BakedTexture: {fileID: 8900000, guid: 663dde43fee4b884ea1e464cdf61bdae, type: 3}
+  m_BakedTexture: {fileID: 8900000, guid: ce919272a4f223447b7c4800b0b83cc9, type: 3}
   m_CustomTexture: {fileID: 0}
   m_BakedRenderData:
     m_WorldToCameraRHS:
@@ -8062,37 +8299,37 @@ MonoBehaviour:
     m_CaptureRotation: {x: 0, y: 0, z: 0, w: 0}
     m_FieldOfView: 0
     m_Aspect: 0
-  m_HasValidSHForNormalization: 0
+  m_HasValidSHForNormalization: 1
   m_SHForNormalization:
-    sh[ 0]: 0
-    sh[ 1]: 0
-    sh[ 2]: 0
-    sh[ 3]: 0
-    sh[ 4]: 0
-    sh[ 5]: 0
-    sh[ 6]: 0
-    sh[ 7]: 0
-    sh[ 8]: 0
-    sh[ 9]: 0
-    sh[10]: 0
-    sh[11]: 0
-    sh[12]: 0
-    sh[13]: 0
-    sh[14]: 0
-    sh[15]: 0
-    sh[16]: 0
-    sh[17]: 0
-    sh[18]: 0
-    sh[19]: 0
-    sh[20]: 0
-    sh[21]: 0
-    sh[22]: 0
-    sh[23]: 0
-    sh[24]: 0
-    sh[25]: 0
-    sh[26]: 0
-  m_SHValidForCapturePosition: {x: 0, y: 0, z: 0}
-  m_SHValidForSourcePosition: {x: 0, y: 0, z: 0}
+    sh[ 0]: 922.54095
+    sh[ 1]: -128.10246
+    sh[ 2]: 169.42776
+    sh[ 3]: -396.7042
+    sh[ 4]: 83.70459
+    sh[ 5]: -7.0825505
+    sh[ 6]: -5.1712427
+    sh[ 7]: -24.67426
+    sh[ 8]: -26.482405
+    sh[ 9]: 721.3399
+    sh[10]: 58.020267
+    sh[11]: 104.450226
+    sh[12]: -248.30965
+    sh[13]: 54.068214
+    sh[14]: -8.869383
+    sh[15]: -5.4413915
+    sh[16]: -16.535345
+    sh[17]: -35.022816
+    sh[18]: 743.8696
+    sh[19]: 338.4855
+    sh[20]: 28.18356
+    sh[21]: -145.73491
+    sh[22]: 36.03604
+    sh[23]: -25.88715
+    sh[24]: -9.354617
+    sh[25]: -11.56951
+    sh[26]: -62.853607
+  m_SHValidForCapturePosition: {x: 0, y: 5.79, z: 0}
+  m_SHValidForSourcePosition: {x: 0, y: 5.79, z: 0}
   m_HDProbeVersion: 3
   m_ObsoleteInfiniteProjection: 0
   m_ObsoleteInfluenceVolume:
@@ -8522,7 +8759,7 @@ MonoBehaviour:
     camera:
       camera: 0
   m_ProxyVolume: {fileID: 0}
-  m_BakedTexture: {fileID: 8900000, guid: 3cbeb065b6ea5624f8c84691cda2ae31, type: 3}
+  m_BakedTexture: {fileID: 8900000, guid: 5aa47bcce9900144ea16daa9f8761f62, type: 3}
   m_CustomTexture: {fileID: 0}
   m_BakedRenderData:
     m_WorldToCameraRHS:
@@ -8602,37 +8839,37 @@ MonoBehaviour:
     m_CaptureRotation: {x: 0, y: 0, z: 0, w: 0}
     m_FieldOfView: 0
     m_Aspect: 0
-  m_HasValidSHForNormalization: 0
+  m_HasValidSHForNormalization: 1
   m_SHForNormalization:
-    sh[ 0]: 0
-    sh[ 1]: 0
-    sh[ 2]: 0
-    sh[ 3]: 0
-    sh[ 4]: 0
-    sh[ 5]: 0
-    sh[ 6]: 0
-    sh[ 7]: 0
-    sh[ 8]: 0
-    sh[ 9]: 0
-    sh[10]: 0
-    sh[11]: 0
-    sh[12]: 0
-    sh[13]: 0
-    sh[14]: 0
-    sh[15]: 0
-    sh[16]: 0
-    sh[17]: 0
-    sh[18]: 0
-    sh[19]: 0
-    sh[20]: 0
-    sh[21]: 0
-    sh[22]: 0
-    sh[23]: 0
-    sh[24]: 0
-    sh[25]: 0
-    sh[26]: 0
-  m_SHValidForCapturePosition: {x: 0, y: 0, z: 0}
-  m_SHValidForSourcePosition: {x: 0, y: 0, z: 0}
+    sh[ 0]: 1620.3418
+    sh[ 1]: -1092.4995
+    sh[ 2]: -40.608017
+    sh[ 3]: -554.1797
+    sh[ 4]: 254.58113
+    sh[ 5]: 71.339714
+    sh[ 6]: -21.052141
+    sh[ 7]: 23.28458
+    sh[ 8]: -181.83621
+    sh[ 9]: 1054.8134
+    sh[10]: -586.88525
+    sh[11]: -49.478786
+    sh[12]: -331.7949
+    sh[13]: 165.27693
+    sh[14]: 31.046394
+    sh[15]: -17.789665
+    sh[16]: 12.145372
+    sh[17]: -125.69946
+    sh[18]: 752.0441
+    sh[19]: -155.93097
+    sh[20]: -88.732834
+    sh[21]: -161.05469
+    sh[22]: 116.907555
+    sh[23]: -20.584637
+    sh[24]: -19.051579
+    sh[25]: -0.70088106
+    sh[26]: -108.277954
+  m_SHValidForCapturePosition: {x: -1.606, y: 1.288, z: 4.874}
+  m_SHValidForSourcePosition: {x: -1.606, y: 1.288, z: 4.874}
   m_HDProbeVersion: 3
   m_ObsoleteInfiniteProjection: 0
   m_ObsoleteInfluenceVolume:
@@ -9045,7 +9282,7 @@ MonoBehaviour:
     camera:
       camera: 0
   m_ProxyVolume: {fileID: 0}
-  m_BakedTexture: {fileID: 8900000, guid: f27053b78ef1df3469cc2ff748931101, type: 3}
+  m_BakedTexture: {fileID: 8900000, guid: 9f55fbf8bd01bcf408ea195fa62f9c4f, type: 3}
   m_CustomTexture: {fileID: 0}
   m_BakedRenderData:
     m_WorldToCameraRHS:
@@ -9125,37 +9362,37 @@ MonoBehaviour:
     m_CaptureRotation: {x: 0, y: 0, z: 0, w: 0}
     m_FieldOfView: 0
     m_Aspect: 0
-  m_HasValidSHForNormalization: 0
+  m_HasValidSHForNormalization: 1
   m_SHForNormalization:
-    sh[ 0]: 0
-    sh[ 1]: 0
-    sh[ 2]: 0
-    sh[ 3]: 0
-    sh[ 4]: 0
-    sh[ 5]: 0
-    sh[ 6]: 0
-    sh[ 7]: 0
-    sh[ 8]: 0
-    sh[ 9]: 0
-    sh[10]: 0
-    sh[11]: 0
-    sh[12]: 0
-    sh[13]: 0
-    sh[14]: 0
-    sh[15]: 0
-    sh[16]: 0
-    sh[17]: 0
-    sh[18]: 0
-    sh[19]: 0
-    sh[20]: 0
-    sh[21]: 0
-    sh[22]: 0
-    sh[23]: 0
-    sh[24]: 0
-    sh[25]: 0
-    sh[26]: 0
-  m_SHValidForCapturePosition: {x: 0, y: 0, z: 0}
-  m_SHValidForSourcePosition: {x: 0, y: 0, z: 0}
+    sh[ 0]: 1376.0765
+    sh[ 1]: 198.91129
+    sh[ 2]: 56.190315
+    sh[ 3]: -148.11055
+    sh[ 4]: 135.30925
+    sh[ 5]: -30.296595
+    sh[ 6]: -6.4805136
+    sh[ 7]: -14.7094345
+    sh[ 8]: -50.507896
+    sh[ 9]: 1380.1053
+    sh[10]: 533.4526
+    sh[11]: -27.295698
+    sh[12]: -28.598167
+    sh[13]: 119.8764
+    sh[14]: -41.36462
+    sh[15]: -6.3410215
+    sh[16]: -14.311951
+    sh[17]: -64.49502
+    sh[18]: 1899.4115
+    sh[19]: 1163.1454
+    sh[20]: -176.58867
+    sh[21]: 87.99246
+    sh[22]: 130.2752
+    sh[23]: -83.02397
+    sh[24]: -9.060236
+    sh[25]: -19.599754
+    sh[26]: -107.52626
+  m_SHValidForCapturePosition: {x: 0.068823814, y: 9.909523, z: -0.11653519}
+  m_SHValidForSourcePosition: {x: 0.068823814, y: 9.909523, z: -0.11653519}
   m_HDProbeVersion: 3
   m_ObsoleteInfiniteProjection: 1
   m_ObsoleteInfluenceVolume:
@@ -9503,7 +9740,7 @@ MonoBehaviour:
     camera:
       camera: 0
   m_ProxyVolume: {fileID: 0}
-  m_BakedTexture: {fileID: 8900000, guid: ce919272a4f223447b7c4800b0b83cc9, type: 3}
+  m_BakedTexture: {fileID: 8900000, guid: d05eafbac5bdc7741b7afe2bfb445188, type: 3}
   m_CustomTexture: {fileID: 0}
   m_BakedRenderData:
     m_WorldToCameraRHS:
@@ -9583,37 +9820,37 @@ MonoBehaviour:
     m_CaptureRotation: {x: 0, y: 0, z: 0, w: 0}
     m_FieldOfView: 0
     m_Aspect: 0
-  m_HasValidSHForNormalization: 0
+  m_HasValidSHForNormalization: 1
   m_SHForNormalization:
-    sh[ 0]: 0
-    sh[ 1]: 0
-    sh[ 2]: 0
-    sh[ 3]: 0
-    sh[ 4]: 0
-    sh[ 5]: 0
-    sh[ 6]: 0
-    sh[ 7]: 0
-    sh[ 8]: 0
-    sh[ 9]: 0
-    sh[10]: 0
-    sh[11]: 0
-    sh[12]: 0
-    sh[13]: 0
-    sh[14]: 0
-    sh[15]: 0
-    sh[16]: 0
-    sh[17]: 0
-    sh[18]: 0
-    sh[19]: 0
-    sh[20]: 0
-    sh[21]: 0
-    sh[22]: 0
-    sh[23]: 0
-    sh[24]: 0
-    sh[25]: 0
-    sh[26]: 0
-  m_SHValidForCapturePosition: {x: 0, y: 0, z: 0}
-  m_SHValidForSourcePosition: {x: 0, y: 0, z: 0}
+    sh[ 0]: 628.2999
+    sh[ 1]: -220.22014
+    sh[ 2]: 85.26584
+    sh[ 3]: 330.3805
+    sh[ 4]: -119.28226
+    sh[ 5]: -18.306858
+    sh[ 6]: -5.8945684
+    sh[ 7]: 19.814602
+    sh[ 8]: 3.7355032
+    sh[ 9]: 365.06607
+    sh[10]: -140.81749
+    sh[11]: 49.345276
+    sh[12]: 202.09372
+    sh[13]: -72.11314
+    sh[14]: -10.955658
+    sh[15]: -3.4767902
+    sh[16]: 11.643177
+    sh[17]: 3.1570225
+    sh[18]: 194.28665
+    sh[19]: -85.23918
+    sh[20]: 26.447798
+    sh[21]: 116.82734
+    sh[22]: -40.6968
+    sh[23]: -6.068906
+    sh[24]: -1.9568381
+    sh[25]: 6.3812165
+    sh[26]: 2.5759246
+  m_SHValidForCapturePosition: {x: -4, y: 1.6829665, z: 0}
+  m_SHValidForSourcePosition: {x: -4, y: 1.6829665, z: 0}
   m_HDProbeVersion: 3
   m_ObsoleteInfiniteProjection: 1
   m_ObsoleteInfluenceVolume:
@@ -9991,7 +10228,7 @@ MonoBehaviour:
     camera:
       camera: 0
   m_ProxyVolume: {fileID: 987584266}
-  m_BakedTexture: {fileID: 8900000, guid: ff9e7b2f562503b4c8d56dc3bbda121d, type: 3}
+  m_BakedTexture: {fileID: 8900000, guid: d754586a741f9b44c9c457bc8ad8390e, type: 3}
   m_CustomTexture: {fileID: 0}
   m_BakedRenderData:
     m_WorldToCameraRHS:
@@ -10071,37 +10308,37 @@ MonoBehaviour:
     m_CaptureRotation: {x: 0, y: 0, z: 0, w: 0}
     m_FieldOfView: 0
     m_Aspect: 0
-  m_HasValidSHForNormalization: 0
+  m_HasValidSHForNormalization: 1
   m_SHForNormalization:
-    sh[ 0]: 0
-    sh[ 1]: 0
-    sh[ 2]: 0
-    sh[ 3]: 0
-    sh[ 4]: 0
-    sh[ 5]: 0
-    sh[ 6]: 0
-    sh[ 7]: 0
-    sh[ 8]: 0
-    sh[ 9]: 0
-    sh[10]: 0
-    sh[11]: 0
-    sh[12]: 0
-    sh[13]: 0
-    sh[14]: 0
-    sh[15]: 0
-    sh[16]: 0
-    sh[17]: 0
-    sh[18]: 0
-    sh[19]: 0
-    sh[20]: 0
-    sh[21]: 0
-    sh[22]: 0
-    sh[23]: 0
-    sh[24]: 0
-    sh[25]: 0
-    sh[26]: 0
-  m_SHValidForCapturePosition: {x: 0, y: 0, z: 0}
-  m_SHValidForSourcePosition: {x: 0, y: 0, z: 0}
+    sh[ 0]: 91.06853
+    sh[ 1]: -1.0449029
+    sh[ 2]: 59.234524
+    sh[ 3]: -11.853847
+    sh[ 4]: 1.7258645
+    sh[ 5]: -1.5802902
+    sh[ 6]: 4.5724764
+    sh[ 7]: -8.030874
+    sh[ 8]: -0.8923056
+    sh[ 9]: 60.176384
+    sh[10]: 0.0030101144
+    sh[11]: 40.76363
+    sh[12]: -7.851825
+    sh[13]: 1.0854232
+    sh[14]: -0.047600392
+    sh[15]: 3.1077847
+    sh[16]: -4.827269
+    sh[17]: -0.6353945
+    sh[18]: 43.93205
+    sh[19]: 0.5466119
+    sh[20]: 32.415356
+    sh[21]: -5.431914
+    sh[22]: 0.56437355
+    sh[23]: 1.1868249
+    sh[24]: 2.3480062
+    sh[25]: -2.769568
+    sh[26]: -0.62384206
+  m_SHValidForCapturePosition: {x: 0, y: 5.62, z: -10.376203}
+  m_SHValidForSourcePosition: {x: 0, y: 5.7788343, z: -10.535}
   m_HDProbeVersion: 3
   m_ObsoleteInfiniteProjection: 1
   m_ObsoleteInfluenceVolume:
