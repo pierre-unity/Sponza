@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 8
-  m_LightingDataAsset: {fileID: 112000002, guid: 0f5e10feb01cf98448efa4e23d0c8130,
+  m_LightingDataAsset: {fileID: 112000002, guid: 36ee9f8454880514a8a371bcd8f2faa8,
     type: 2}
   m_LightingSettings: {fileID: 4890085278179872738, guid: 2e8923eba7d23784c9bd141e38f3a70a,
     type: 2}
@@ -346,55 +346,7 @@ MonoBehaviour:
   m_Script: {fileID: 1409336706}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Entries:
-  - id: 0
-    category: 0
-    gameObject: {fileID: 1213580496}
-  - id: 1
-    category: 0
-    gameObject: {fileID: 352221574}
-  - id: 2
-    category: 0
-    gameObject: {fileID: 1630564728}
-  - id: 3
-    category: 0
-    gameObject: {fileID: 1465520419}
-  - id: 4
-    category: 0
-    gameObject: {fileID: 956065536}
-  - id: 5
-    category: 0
-    gameObject: {fileID: 2010359574}
-  - id: 6
-    category: 0
-    gameObject: {fileID: 1834504469}
-  - id: 7
-    category: 0
-    gameObject: {fileID: 1038729460}
-  - id: 8
-    category: 0
-    gameObject: {fileID: 1991798231}
-  - id: 9
-    category: 0
-    gameObject: {fileID: 1553431996}
-  - id: 10
-    category: 0
-    gameObject: {fileID: 1585892274}
-  - id: 11
-    category: 0
-    gameObject: {fileID: 1986150186}
-  - id: 12
-    category: 0
-    gameObject: {fileID: 1836035709}
-  - id: 13
-    category: 0
-    gameObject: {fileID: 2080379982}
-  - id: 14
-    category: 0
-    gameObject: {fileID: 1371376611}
-  - id: 15
-    category: 0
-    gameObject: {fileID: 963748519}
+  m_Entries: []
 --- !u!4 &112764840
 Transform:
   m_ObjectHideFlags: 19
@@ -408,7 +360,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &299778456
 GameObject:
@@ -508,7 +460,52 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &330444513
+GameObject:
+  m_ObjectHideFlags: 19
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 330444515}
+  - component: {fileID: 330444514}
+  m_Layer: 0
+  m_Name: SceneIDMap
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &330444514
+MonoBehaviour:
+  m_ObjectHideFlags: 19
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 330444513}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 784506983}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Entries: []
+--- !u!4 &330444515
+Transform:
+  m_ObjectHideFlags: 19
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 330444513}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &352221574
 GameObject:
@@ -634,6 +631,7 @@ MonoBehaviour:
         sssQualityMode: 0
         sssQualityLevel: 0
         sssCustomSampleBudget: 20
+        sssCustomDownsampleSteps: 0
         msaaMode: 1
         materialQuality: 0
       renderingPathCustomFrameSettingsOverrideMask:
@@ -737,7 +735,7 @@ MonoBehaviour:
     camera:
       camera: 0
   m_ProxyVolume: {fileID: 0}
-  m_BakedTexture: {fileID: 8900000, guid: 8a40ca1822c70f64dac417f1e02c965f, type: 3}
+  m_BakedTexture: {fileID: 8900000, guid: 2aced09f7dba3e6459ccb375124cb60b, type: 3}
   m_CustomTexture: {fileID: 0}
   m_BakedRenderData:
     m_WorldToCameraRHS:
@@ -819,33 +817,33 @@ MonoBehaviour:
     m_Aspect: 0
   m_HasValidSHForNormalization: 1
   m_SHForNormalization:
-    sh[ 0]: 290.87488
-    sh[ 1]: 54.92378
-    sh[ 2]: 129.33737
-    sh[ 3]: -132.24727
-    sh[ 4]: -10.41795
-    sh[ 5]: 15.327396
-    sh[ 6]: 0.2277807
-    sh[ 7]: -45.821053
-    sh[ 8]: 2.0252876
-    sh[ 9]: 222.12292
-    sh[10]: 71.888054
-    sh[11]: 87.73227
-    sh[12]: -90.49873
-    sh[13]: -8.614931
-    sh[14]: 13.319481
-    sh[15]: -1.2117256
-    sh[16]: -27.641838
-    sh[17]: -6.08415
-    sh[18]: 220.74765
-    sh[19]: 127.42831
-    sh[20]: 69.33989
-    sh[21]: -70.427826
-    sh[22]: -11.621979
-    sh[23]: 16.688387
-    sh[24]: -3.9298255
-    sh[25]: -16.52808
-    sh[26]: -18.742023
+    sh[ 0]: 267.61514
+    sh[ 1]: 67.86505
+    sh[ 2]: 129.04073
+    sh[ 3]: -107.816895
+    sh[ 4]: -6.289852
+    sh[ 5]: 7.798209
+    sh[ 6]: 1.644748
+    sh[ 7]: -30.839212
+    sh[ 8]: -0.3564319
+    sh[ 9]: 209.87534
+    sh[10]: 78.10977
+    sh[11]: 86.971405
+    sh[12]: -75.951164
+    sh[13]: -6.6064878
+    sh[14]: 7.7969427
+    sh[15]: -0.26901883
+    sh[16]: -19.635548
+    sh[17]: -5.5208216
+    sh[18]: 214.81052
+    sh[19]: 124.14734
+    sh[20]: 67.17742
+    sh[21]: -61.65683
+    sh[22]: -9.496934
+    sh[23]: 11.055593
+    sh[24]: -2.8463628
+    sh[25]: -12.74413
+    sh[26]: -14.282383
   m_SHValidForCapturePosition: {x: 1.608, y: 1.288, z: -4.961}
   m_SHValidForSourcePosition: {x: 1.608, y: 1.288, z: -4.961}
   m_HDProbeVersion: 3
@@ -1102,7 +1100,7 @@ Transform:
   - {fileID: 783135499}
   - {fileID: 26943113}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &515750822
 GameObject:
@@ -1151,7 +1149,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &552323007
 GameObject:
@@ -1196,7 +1194,7 @@ Transform:
   - {fileID: 1991798232}
   - {fileID: 446889819}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &695022872
 GameObject:
@@ -1227,55 +1225,7 @@ MonoBehaviour:
   m_Script: {fileID: 1597330353}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Entries:
-  - id: 0
-    category: 0
-    gameObject: {fileID: 1991798231}
-  - id: 1
-    category: 0
-    gameObject: {fileID: 1465520419}
-  - id: 2
-    category: 0
-    gameObject: {fileID: 1553431996}
-  - id: 3
-    category: 0
-    gameObject: {fileID: 1630564728}
-  - id: 4
-    category: 0
-    gameObject: {fileID: 1213580496}
-  - id: 5
-    category: 0
-    gameObject: {fileID: 1371376611}
-  - id: 6
-    category: 0
-    gameObject: {fileID: 2080379982}
-  - id: 7
-    category: 0
-    gameObject: {fileID: 963748519}
-  - id: 8
-    category: 0
-    gameObject: {fileID: 1834504469}
-  - id: 9
-    category: 0
-    gameObject: {fileID: 1038729460}
-  - id: 10
-    category: 0
-    gameObject: {fileID: 1986150186}
-  - id: 11
-    category: 0
-    gameObject: {fileID: 956065536}
-  - id: 12
-    category: 0
-    gameObject: {fileID: 2010359574}
-  - id: 13
-    category: 0
-    gameObject: {fileID: 352221574}
-  - id: 14
-    category: 0
-    gameObject: {fileID: 1585892274}
-  - id: 15
-    category: 0
-    gameObject: {fileID: 1836035709}
+  m_Entries: []
 --- !u!4 &695022874
 Transform:
   m_ObjectHideFlags: 19
@@ -1289,7 +1239,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &706918836
 GameObject:
@@ -1320,55 +1270,6 @@ MonoBehaviour:
   m_Script: {fileID: 95473476}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Entries:
-  - id: 0
-    category: 0
-    gameObject: {fileID: 1630564728}
-  - id: 1
-    category: 0
-    gameObject: {fileID: 1986150186}
-  - id: 3
-    category: 0
-    gameObject: {fileID: 1585892274}
-  - id: 6
-    category: 0
-    gameObject: {fileID: 1836035709}
-  - id: 7
-    category: 0
-    gameObject: {fileID: 1991798231}
-  - id: 13
-    category: 0
-    gameObject: {fileID: 1038729460}
-  - id: 16
-    category: 0
-    gameObject: {fileID: 1834504469}
-  - id: 17
-    category: 0
-    gameObject: {fileID: 352221574}
-  - id: 19
-    category: 0
-    gameObject: {fileID: 1213580496}
-  - id: 29
-    category: 0
-    gameObject: {fileID: 1465520419}
-  - id: 30
-    category: 0
-    gameObject: {fileID: 2010359574}
-  - id: 31
-    category: 0
-    gameObject: {fileID: 1371376611}
-  - id: 34
-    category: 0
-    gameObject: {fileID: 1553431996}
-  - id: 37
-    category: 0
-    gameObject: {fileID: 956065536}
-  - id: 38
-    category: 0
-    gameObject: {fileID: 963748519}
-  - id: 39
-    category: 0
-    gameObject: {fileID: 2080379982}
 --- !u!4 &706918838
 Transform:
   m_ObjectHideFlags: 19
@@ -1382,7 +1283,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &783135498
 GameObject:
@@ -2038,6 +1939,36 @@ LightProbeGroup:
   - {x: 3.895953, y: 0.53947866, z: -5.857826}
   - {x: 3.895953, y: 0.53947866, z: -7.397458}
   m_Dering: 1
+--- !u!115 &784506983
+MonoScript:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  serializedVersion: 7
+  m_DefaultReferences: {}
+  m_Icon: {fileID: 0}
+  m_Type: 0
+  m_ExecutionOrder: 0
+  m_ClassName: SceneObjectIDMapSceneAsset
+  m_Namespace: UnityEngine.Rendering.HighDefinition
+  m_AssemblyName: Unity.RenderPipelines.HighDefinition.Runtime
+--- !u!115 &816844347
+MonoScript:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  serializedVersion: 7
+  m_DefaultReferences: {}
+  m_Icon: {fileID: 0}
+  m_Type: 0
+  m_ExecutionOrder: 0
+  m_ClassName: SceneObjectIDMapSceneAsset
+  m_Namespace: UnityEngine.Rendering.HighDefinition
+  m_AssemblyName: Unity.RenderPipelines.HighDefinition.Runtime
 --- !u!1 &847681233
 GameObject:
   m_ObjectHideFlags: 0
@@ -2110,7 +2041,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &956065536
 GameObject:
@@ -2234,6 +2165,7 @@ MonoBehaviour:
         sssQualityMode: 0
         sssQualityLevel: 0
         sssCustomSampleBudget: 20
+        sssCustomDownsampleSteps: 0
         msaaMode: 1
         materialQuality: 0
       renderingPathCustomFrameSettingsOverrideMask:
@@ -2337,7 +2269,7 @@ MonoBehaviour:
     camera:
       camera: 0
   m_ProxyVolume: {fileID: 0}
-  m_BakedTexture: {fileID: 8900000, guid: 1b95d9967c2b12c4587806c32b2f45af, type: 3}
+  m_BakedTexture: {fileID: 8900000, guid: 097ead13d2f434d43939fc9d279c5bab, type: 3}
   m_CustomTexture: {fileID: 0}
   m_BakedRenderData:
     m_WorldToCameraRHS:
@@ -2419,33 +2351,33 @@ MonoBehaviour:
     m_Aspect: 0
   m_HasValidSHForNormalization: 1
   m_SHForNormalization:
-    sh[ 0]: 83.93781
-    sh[ 1]: 16.375486
-    sh[ 2]: 70.52765
-    sh[ 3]: 1.7164412
-    sh[ 4]: -0.29723537
-    sh[ 5]: 7.2864833
-    sh[ 6]: 4.9690824
-    sh[ 7]: -0.2089984
-    sh[ 8]: -0.3656022
-    sh[ 9]: 59.258736
-    sh[10]: 13.932438
-    sh[11]: 50.891453
-    sh[12]: -0.14308694
-    sh[13]: -0.17860992
-    sh[14]: 6.369037
-    sh[15]: 3.5722196
-    sh[16]: -0.57005715
-    sh[17]: -0.8003525
-    sh[18]: 47.54828
-    sh[19]: 13.670036
-    sh[20]: 42.426
-    sh[21]: -1.0179437
-    sh[22]: -0.10270869
-    sh[23]: 6.484976
-    sh[24]: 2.913618
-    sh[25]: -0.66285205
-    sh[26]: -1.2342892
+    sh[ 0]: 82.121414
+    sh[ 1]: 12.783234
+    sh[ 2]: 59.538906
+    sh[ 3]: -2.6430073
+    sh[ 4]: -0.28047347
+    sh[ 5]: 10.860676
+    sh[ 6]: 4.5511804
+    sh[ 7]: -2.5226965
+    sh[ 8]: -1.9948685
+    sh[ 9]: 61.345963
+    sh[10]: 11.475392
+    sh[11]: 46.00319
+    sh[12]: -1.4819673
+    sh[13]: -0.27272502
+    sh[14]: 8.805476
+    sh[15]: 3.3771672
+    sh[16]: -1.751902
+    sh[17]: -1.7495224
+    sh[18]: 52.349243
+    sh[19]: 12.810266
+    sh[20]: 41.74055
+    sh[21]: -0.823181
+    sh[22]: -0.2303546
+    sh[23]: 8.531808
+    sh[24]: 2.870614
+    sh[25]: -1.1970656
+    sh[26]: -1.8306845
   m_SHValidForCapturePosition: {x: 0, y: 1.6829665, z: -10.38751}
   m_SHValidForSourcePosition: {x: 0, y: 1.6829665, z: -9.890993}
   m_HDProbeVersion: 3
@@ -2631,7 +2563,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &963748519
 GameObject:
@@ -2755,6 +2687,7 @@ MonoBehaviour:
         sssQualityMode: 0
         sssQualityLevel: 0
         sssCustomSampleBudget: 20
+        sssCustomDownsampleSteps: 0
         msaaMode: 1
         materialQuality: 0
       renderingPathCustomFrameSettingsOverrideMask:
@@ -2858,7 +2791,7 @@ MonoBehaviour:
     camera:
       camera: 0
   m_ProxyVolume: {fileID: 987584266}
-  m_BakedTexture: {fileID: 8900000, guid: 663dde43fee4b884ea1e464cdf61bdae, type: 3}
+  m_BakedTexture: {fileID: 8900000, guid: 636275b9fc4a4c84cb5f25420c6f66f5, type: 3}
   m_CustomTexture: {fileID: 0}
   m_BakedRenderData:
     m_WorldToCameraRHS:
@@ -2940,33 +2873,33 @@ MonoBehaviour:
     m_Aspect: 0
   m_HasValidSHForNormalization: 1
   m_SHForNormalization:
-    sh[ 0]: 300.95132
-    sh[ 1]: -82.14459
-    sh[ 2]: 53.043198
-    sh[ 3]: 168.41127
-    sh[ 4]: -61.344627
-    sh[ 5]: -8.83008
-    sh[ 6]: 1.6441169
-    sh[ 7]: 15.622832
-    sh[ 8]: 15.525305
-    sh[ 9]: 184.87895
-    sh[10]: -56.653915
-    sh[11]: 34.249046
-    sh[12]: 107.71969
-    sh[13]: -39.491913
-    sh[14]: -5.6061344
-    sh[15]: 0.94007254
-    sh[16]: 10.243202
-    sh[17]: 9.901816
-    sh[18]: 112.79876
-    sh[19]: -41.618534
-    sh[20]: 20.695974
-    sh[21]: 71.07335
-    sh[22]: -25.312204
-    sh[23]: -3.4387155
-    sh[24]: 0.37607554
-    sh[25]: 6.129013
-    sh[26]: 5.9837065
+    sh[ 0]: 273.63177
+    sh[ 1]: -88.32394
+    sh[ 2]: 30.992416
+    sh[ 3]: 165.97598
+    sh[ 4]: -42.657787
+    sh[ 5]: -2.581551
+    sh[ 6]: -1.6164324
+    sh[ 7]: 8.027156
+    sh[ 8]: 9.291136
+    sh[ 9]: 168.38823
+    sh[10]: -56.93491
+    sh[11]: 17.044796
+    sh[12]: 103.695656
+    sh[13]: -26.82635
+    sh[14]: -0.7562027
+    sh[15]: -0.9597851
+    sh[16]: 5.3867273
+    sh[17]: 5.8136573
+    sh[18]: 102.64456
+    sh[19]: -38.301476
+    sh[20]: 7.7901535
+    sh[21]: 64.76333
+    sh[22]: -16.668287
+    sh[23]: 0.38639534
+    sh[24]: -0.5127802
+    sh[25]: 3.1311584
+    sh[26]: 3.4280741
   m_SHValidForCapturePosition: {x: -3.85278, y: 5.62, z: 0}
   m_SHValidForSourcePosition: {x: -3.8, y: 5.7788343, z: 0}
   m_HDProbeVersion: 3
@@ -3106,6 +3039,99 @@ ReflectionProbe:
   m_UseOcclusionCulling: 1
   m_Importance: 1
   m_CustomBakedTexture: {fileID: 0}
+--- !u!1 &984107555
+GameObject:
+  m_ObjectHideFlags: 19
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 984107557}
+  - component: {fileID: 984107556}
+  m_Layer: 0
+  m_Name: SceneIDMap
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &984107556
+MonoBehaviour:
+  m_ObjectHideFlags: 19
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 984107555}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1952542371}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Entries:
+  - id: 0
+    category: 0
+    gameObject: {fileID: 1553431996}
+  - id: 1
+    category: 0
+    gameObject: {fileID: 963748519}
+  - id: 2
+    category: 0
+    gameObject: {fileID: 2080379982}
+  - id: 3
+    category: 0
+    gameObject: {fileID: 352221574}
+  - id: 4
+    category: 0
+    gameObject: {fileID: 2010359574}
+  - id: 5
+    category: 0
+    gameObject: {fileID: 1991798231}
+  - id: 6
+    category: 0
+    gameObject: {fileID: 1585892274}
+  - id: 7
+    category: 0
+    gameObject: {fileID: 1371376611}
+  - id: 8
+    category: 0
+    gameObject: {fileID: 1038729460}
+  - id: 9
+    category: 0
+    gameObject: {fileID: 956065536}
+  - id: 10
+    category: 0
+    gameObject: {fileID: 1465520419}
+  - id: 11
+    category: 0
+    gameObject: {fileID: 1986150186}
+  - id: 12
+    category: 0
+    gameObject: {fileID: 1834504469}
+  - id: 13
+    category: 0
+    gameObject: {fileID: 1836035709}
+  - id: 14
+    category: 0
+    gameObject: {fileID: 1213580496}
+  - id: 15
+    category: 0
+    gameObject: {fileID: 1630564728}
+--- !u!4 &984107557
+Transform:
+  m_ObjectHideFlags: 19
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 984107555}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 15
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &987584264
 GameObject:
   m_ObjectHideFlags: 0
@@ -3498,6 +3524,7 @@ MonoBehaviour:
         sssQualityMode: 0
         sssQualityLevel: 0
         sssCustomSampleBudget: 20
+        sssCustomDownsampleSteps: 0
         msaaMode: 1
         materialQuality: 0
       renderingPathCustomFrameSettingsOverrideMask:
@@ -3601,7 +3628,7 @@ MonoBehaviour:
     camera:
       camera: 0
   m_ProxyVolume: {fileID: 0}
-  m_BakedTexture: {fileID: 8900000, guid: c49f95ffb1c32d74abf66d327b0efe17, type: 3}
+  m_BakedTexture: {fileID: 8900000, guid: 47ec1a6dc5a1459499c68fb662ac414a, type: 3}
   m_CustomTexture: {fileID: 0}
   m_BakedRenderData:
     m_WorldToCameraRHS:
@@ -3683,33 +3710,33 @@ MonoBehaviour:
     m_Aspect: 0
   m_HasValidSHForNormalization: 1
   m_SHForNormalization:
-    sh[ 0]: 457.4039
-    sh[ 1]: 76.75941
-    sh[ 2]: -2.3378253
-    sh[ 3]: -238.11081
-    sh[ 4]: 1.0397071
-    sh[ 5]: 5.9295616
-    sh[ 6]: -6.3045945
-    sh[ 7]: -2.3819165
-    sh[ 8]: 10.720987
-    sh[ 9]: 330.03738
-    sh[10]: 89.60106
-    sh[11]: -13.65938
-    sh[12]: -155.95627
-    sh[13]: -3.2356467
-    sh[14]: -1.1390172
-    sh[15]: -5.220578
-    sh[16]: -0.9119804
-    sh[17]: 0.49701142
-    sh[18]: 306.67435
-    sh[19]: 151.4507
-    sh[20]: -38.51433
-    sh[21]: -110.65656
-    sh[22]: -9.502871
-    sh[23]: -13.603496
-    sh[24]: -6.0950413
-    sh[25]: 1.2120124
-    sh[26]: -13.420295
+    sh[ 0]: 447.22552
+    sh[ 1]: 38.231796
+    sh[ 2]: -11.253749
+    sh[ 3]: -244.73393
+    sh[ 4]: 3.2993085
+    sh[ 5]: 0.30793422
+    sh[ 6]: -6.0938935
+    sh[ 7]: 3.7051878
+    sh[ 8]: 10.85317
+    sh[ 9]: 325.06146
+    sh[10]: 69.64475
+    sh[11]: -19.003063
+    sh[12]: -158.80322
+    sh[13]: -2.3788016
+    sh[14]: -5.485569
+    sh[15]: -4.859355
+    sh[16]: 3.003352
+    sh[17]: 0.79535013
+    sh[18]: 304.67145
+    sh[19]: 140.76385
+    sh[20]: -41.08004
+    sh[21]: -110.885475
+    sh[22]: -9.171107
+    sh[23]: -17.642897
+    sh[24]: -5.400494
+    sh[25]: 3.7306402
+    sh[26]: -13.055958
   m_SHValidForCapturePosition: {x: 1.608, y: 1.288, z: 4.874}
   m_SHValidForSourcePosition: {x: 1.608, y: 1.288, z: 4.874}
   m_HDProbeVersion: 3
@@ -4021,6 +4048,7 @@ MonoBehaviour:
         sssQualityMode: 0
         sssQualityLevel: 0
         sssCustomSampleBudget: 20
+        sssCustomDownsampleSteps: 0
         msaaMode: 1
         materialQuality: 0
       renderingPathCustomFrameSettingsOverrideMask:
@@ -4124,7 +4152,7 @@ MonoBehaviour:
     camera:
       camera: 0
   m_ProxyVolume: {fileID: 0}
-  m_BakedTexture: {fileID: 8900000, guid: f27053b78ef1df3469cc2ff748931101, type: 3}
+  m_BakedTexture: {fileID: 8900000, guid: bd800849b3a5f5d43a3d93a5620d2b73, type: 3}
   m_CustomTexture: {fileID: 0}
   m_BakedRenderData:
     m_WorldToCameraRHS:
@@ -4206,33 +4234,33 @@ MonoBehaviour:
     m_Aspect: 0
   m_HasValidSHForNormalization: 1
   m_SHForNormalization:
-    sh[ 0]: 755.3693
-    sh[ 1]: -104.03833
-    sh[ 2]: 92.86169
-    sh[ 3]: -406.25922
-    sh[ 4]: 70.08183
-    sh[ 5]: -3.1693127
-    sh[ 6]: -5.4338627
-    sh[ 7]: -17.520582
-    sh[ 8]: -1.3498998
-    sh[ 9]: 529.2897
-    sh[10]: -3.9592755
-    sh[11]: 55.655647
-    sh[12]: -244.34428
-    sh[13]: 43.37181
-    sh[14]: -3.627387
-    sh[15]: -5.393649
-    sh[16]: -10.804105
-    sh[17]: -10.357336
-    sh[18]: 455.4234
-    sh[19]: 132.83679
-    sh[20]: 22.222692
-    sh[21]: -135.51883
-    sh[22]: 26.076372
-    sh[23]: -8.4667
-    sh[24]: -7.653249
-    sh[25]: -6.5030613
-    sh[26]: -26.00155
+    sh[ 0]: 807.44775
+    sh[ 1]: -134.02449
+    sh[ 2]: 95.62964
+    sh[ 3]: -421.00122
+    sh[ 4]: 97.40585
+    sh[ 5]: 3.3026457
+    sh[ 6]: -3.529808
+    sh[ 7]: -18.879105
+    sh[ 8]: -0.038756378
+    sh[ 9]: 559.5896
+    sh[10]: -16.758337
+    sh[11]: 57.00031
+    sh[12]: -256.62796
+    sh[13]: 57.655334
+    sh[14]: 0.7470169
+    sh[15]: -4.4974318
+    sh[16]: -11.788072
+    sh[17]: -10.441701
+    sh[18]: 472.31436
+    sh[19]: 132.41914
+    sh[20]: 23.092218
+    sh[21]: -145.61633
+    sh[22]: 32.217915
+    sh[23]: -6.258125
+    sh[24]: -7.661165
+    sh[25]: -7.610199
+    sh[26]: -28.306456
   m_SHValidForCapturePosition: {x: 0, y: 1.5842488, z: 0}
   m_SHValidForSourcePosition: {x: 0, y: 2.2011898, z: 0}
   m_HDProbeVersion: 3
@@ -4401,16 +4429,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a83d2f7ae04ab6f4f99b0d85377be998, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  asset: {fileID: 11400000, guid: e9817ce5a0e9bca468abbf836190369d, type: 2}
-  cellSharedDataAsset: {fileID: 4900000, guid: 0660e42b9f5d4b54db029673786d5434, type: 3}
-  cellSupportDataAsset: {fileID: 4900000, guid: cf66a3b06f2d6c141972ada247f255a3,
+  asset: {fileID: 11400000, guid: dd23f088f6dae3a4181cdca539e6a826, type: 2}
+  cellSharedDataAsset: {fileID: 4900000, guid: ab9d9e11579fd8246be261aef2f895dc, type: 3}
+  cellSupportDataAsset: {fileID: 4900000, guid: ae4ddc2b44025de4b8faffd4e9e10b85,
     type: 3}
   serializedScenarios:
   - scenario: Default
     data:
-      sceneHash: -1008883627
-      cellDataAsset: {fileID: 4900000, guid: e9b8ee4c9ac87e847b2cebecaebfd950, type: 3}
-      cellOptionalDataAsset: {fileID: 4900000, guid: 4419f80878142e74bab8a7a5bfc83002,
+      sceneHash: 1054915221
+      cellDataAsset: {fileID: 4900000, guid: c0baad4f1bcb8bc46ac52efafbce895b, type: 3}
+      cellOptionalDataAsset: {fileID: 4900000, guid: e0bbba9efedd89f44b033fb47b9e9d41,
         type: 3}
 --- !u!4 &1248347353
 Transform:
@@ -4425,7 +4453,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1277136378
 GameObject:
@@ -4582,6 +4610,7 @@ MonoBehaviour:
         sssQualityMode: 0
         sssQualityLevel: 0
         sssCustomSampleBudget: 20
+        sssCustomDownsampleSteps: 0
         msaaMode: 1
         materialQuality: 0
       renderingPathCustomFrameSettingsOverrideMask:
@@ -4685,7 +4714,7 @@ MonoBehaviour:
     camera:
       camera: 0
   m_ProxyVolume: {fileID: 0}
-  m_BakedTexture: {fileID: 8900000, guid: d7fa957200340704db7ae13270ac4133, type: 3}
+  m_BakedTexture: {fileID: 8900000, guid: 3006ecc302ad64549b9abf6e62e8fe6a, type: 3}
   m_CustomTexture: {fileID: 0}
   m_BakedRenderData:
     m_WorldToCameraRHS:
@@ -4767,33 +4796,33 @@ MonoBehaviour:
     m_Aspect: 0
   m_HasValidSHForNormalization: 1
   m_SHForNormalization:
-    sh[ 0]: 197.74808
-    sh[ 1]: -23.695957
-    sh[ 2]: -112.9237
-    sh[ 3]: -68.549965
-    sh[ 4]: 9.201398
-    sh[ 5]: 5.5612316
-    sh[ 6]: 6.3506784
-    sh[ 7]: 20.9759
-    sh[ 8]: -0.062400408
-    sh[ 9]: 126.968414
-    sh[10]: -13.165323
-    sh[11]: -80.92333
-    sh[12]: -39.65685
-    sh[13]: 5.7134323
-    sh[14]: 1.5820689
-    sh[15]: 4.323634
-    sh[16]: 13.768213
-    sh[17]: -0.75859946
-    sh[18]: 92.986465
-    sh[19]: -2.0901139
-    sh[20]: -68.353714
-    sh[21]: -21.388542
-    sh[22]: 3.117196
-    sh[23]: -3.343772
-    sh[24]: 3.575471
-    sh[25]: 8.705297
-    sh[26]: -1.677651
+    sh[ 0]: 187.4567
+    sh[ 1]: -27.254019
+    sh[ 2]: -117.26987
+    sh[ 3]: -58.91327
+    sh[ 4]: 9.21543
+    sh[ 5]: 5.813364
+    sh[ 6]: 5.9668965
+    sh[ 7]: 24.352285
+    sh[ 8]: -0.4061874
+    sh[ 9]: 123.08655
+    sh[10]: -14.163121
+    sh[11]: -82.02358
+    sh[12]: -35.575367
+    sh[13]: 5.4386673
+    sh[14]: 1.4557179
+    sh[15]: 4.1834445
+    sh[16]: 14.935291
+    sh[17]: -0.8519872
+    sh[18]: 92.440475
+    sh[19]: -2.2317572
+    sh[20]: -68.24626
+    sh[21]: -20.39628
+    sh[22]: 2.9596891
+    sh[23]: -3.4666784
+    sh[24]: 3.549587
+    sh[25]: 8.923531
+    sh[26]: -1.6699375
   m_SHValidForCapturePosition: {x: 0, y: 1.6488445, z: 10.371147}
   m_SHValidForSourcePosition: {x: 0, y: 1.6829665, z: 9.89}
   m_HDProbeVersion: 3
@@ -5055,6 +5084,7 @@ MonoBehaviour:
         sssQualityMode: 0
         sssQualityLevel: 0
         sssCustomSampleBudget: 20
+        sssCustomDownsampleSteps: 0
         msaaMode: 1
         materialQuality: 0
       renderingPathCustomFrameSettingsOverrideMask:
@@ -5158,7 +5188,7 @@ MonoBehaviour:
     camera:
       camera: 0
   m_ProxyVolume: {fileID: 0}
-  m_BakedTexture: {fileID: 8900000, guid: 33777fd760b9b6c4ea611352afcc8ae9, type: 3}
+  m_BakedTexture: {fileID: 8900000, guid: f09a04c0fdf35454a93ec681c66eec32, type: 3}
   m_CustomTexture: {fileID: 0}
   m_BakedRenderData:
     m_WorldToCameraRHS:
@@ -5240,33 +5270,33 @@ MonoBehaviour:
     m_Aspect: 0
   m_HasValidSHForNormalization: 1
   m_SHForNormalization:
-    sh[ 0]: 183.39941
-    sh[ 1]: 5.4707155
-    sh[ 2]: 24.738798
-    sh[ 3]: -122.644844
-    sh[ 4]: -0.17167228
-    sh[ 5]: -0.11900806
-    sh[ 6]: -3.6821995
-    sh[ 7]: -5.504736
-    sh[ 8]: 13.945047
-    sh[ 9]: 113.17956
-    sh[10]: 3.674049
-    sh[11]: 16.205484
-    sh[12]: -81.02213
-    sh[13]: 0.036675867
-    sh[14]: 0.10095248
-    sh[15]: -2.4304678
-    sh[16]: -4.196697
-    sh[17]: 8.915156
-    sh[18]: 66.46776
-    sh[19]: 0.6978645
-    sh[20]: 10.338152
-    sh[21]: -51.35957
-    sh[22]: 0.5315247
-    sh[23]: 0.09622543
-    sh[24]: -1.5104765
-    sh[25]: -3.1395023
-    sh[26]: 5.3818536
+    sh[ 0]: 176.75366
+    sh[ 1]: 6.523406
+    sh[ 2]: 15.820274
+    sh[ 3]: -109.48522
+    sh[ 4]: 2.5089684
+    sh[ 5]: 1.3954458
+    sh[ 6]: -2.9121854
+    sh[ 7]: -8.094017
+    sh[ 8]: 12.360513
+    sh[ 9]: 107.26218
+    sh[10]: 2.5177884
+    sh[11]: 8.411615
+    sh[12]: -70.15862
+    sh[13]: 1.7511077
+    sh[14]: 0.78754836
+    sh[15]: -1.8224527
+    sh[16]: -4.3489366
+    sh[17]: 7.85215
+    sh[18]: 62.373875
+    sh[19]: -0.6967071
+    sh[20]: 3.0109277
+    sh[21]: -44.543983
+    sh[22]: 1.5759844
+    sh[23]: 0.4904801
+    sh[24]: -1.0951709
+    sh[25]: -1.7085898
+    sh[26]: 4.838705
   m_SHValidForCapturePosition: {x: 4.0077605, y: 1.6829665, z: 0}
   m_SHValidForSourcePosition: {x: 4.0077605, y: 1.6829665, z: 0}
   m_HDProbeVersion: 3
@@ -5543,6 +5573,7 @@ MonoBehaviour:
         sssQualityMode: 0
         sssQualityLevel: 0
         sssCustomSampleBudget: 20
+        sssCustomDownsampleSteps: 0
         msaaMode: 1
         materialQuality: 0
       renderingPathCustomFrameSettingsOverrideMask:
@@ -5646,7 +5677,7 @@ MonoBehaviour:
     camera:
       camera: 0
   m_ProxyVolume: {fileID: 987584266}
-  m_BakedTexture: {fileID: 8900000, guid: 23b5836c9e259714882389a893cff014, type: 3}
+  m_BakedTexture: {fileID: 8900000, guid: dc3fd3377a0aec94690838dc7ded7792, type: 3}
   m_CustomTexture: {fileID: 0}
   m_BakedRenderData:
     m_WorldToCameraRHS:
@@ -5728,33 +5759,33 @@ MonoBehaviour:
     m_Aspect: 0
   m_HasValidSHForNormalization: 1
   m_SHForNormalization:
-    sh[ 0]: 123.68196
-    sh[ 1]: 5.611992
-    sh[ 2]: 17.470255
-    sh[ 3]: -80.07314
-    sh[ 4]: 1.7406847
-    sh[ 5]: -1.7231303
-    sh[ 6]: -1.555234
-    sh[ 7]: -3.7708821
-    sh[ 8]: 7.072373
-    sh[ 9]: 78.14137
-    sh[10]: 0.95443845
-    sh[11]: 9.831216
-    sh[12]: -53.555927
-    sh[13]: 1.0625879
-    sh[14]: -0.8967308
-    sh[15]: -0.9584033
-    sh[16]: -2.097436
-    sh[17]: 4.904505
-    sh[18]: 50.967533
-    sh[19]: -1.4003325
-    sh[20]: 4.9168363
-    sh[21]: -37.53459
-    sh[22]: 0.39908475
-    sh[23]: -0.3466855
-    sh[24]: -0.6253353
-    sh[25]: -1.0661602
-    sh[26]: 3.4763904
+    sh[ 0]: 124.66455
+    sh[ 1]: 6.33382
+    sh[ 2]: 10.121275
+    sh[ 3]: -89.65923
+    sh[ 4]: 0.8931052
+    sh[ 5]: -0.5074114
+    sh[ 6]: -0.8322754
+    sh[ 7]: -3.8944895
+    sh[ 8]: 7.854825
+    sh[ 9]: 78.10894
+    sh[10]: 2.666153
+    sh[11]: 6.8566127
+    sh[12]: -57.720875
+    sh[13]: 0.63224983
+    sh[14]: -0.20978053
+    sh[15]: -0.6512379
+    sh[16]: -2.438783
+    sh[17]: 5.179162
+    sh[18]: 48.95092
+    sh[19]: 0.3268614
+    sh[20]: 4.3803477
+    sh[21]: -37.245705
+    sh[22]: 0.29350305
+    sh[23]: -0.06385076
+    sh[24]: -0.5172579
+    sh[25]: -1.5186135
+    sh[26]: 3.3653185
   m_SHValidForCapturePosition: {x: 3.8882582, y: 5.62, z: 0}
   m_SHValidForSourcePosition: {x: 3.823574, y: 5.7788343, z: 0}
   m_HDProbeVersion: 3
@@ -6018,6 +6049,7 @@ MonoBehaviour:
         sssQualityMode: 0
         sssQualityLevel: 0
         sssCustomSampleBudget: 20
+        sssCustomDownsampleSteps: 0
         msaaMode: 1
         materialQuality: 0
       renderingPathCustomFrameSettingsOverrideMask:
@@ -6121,7 +6153,7 @@ MonoBehaviour:
     camera:
       camera: 0
   m_ProxyVolume: {fileID: 0}
-  m_BakedTexture: {fileID: 8900000, guid: 3cbeb065b6ea5624f8c84691cda2ae31, type: 3}
+  m_BakedTexture: {fileID: 8900000, guid: c55d1c66182418c4bbfe1231c8962290, type: 3}
   m_CustomTexture: {fileID: 0}
   m_BakedRenderData:
     m_WorldToCameraRHS:
@@ -6203,33 +6235,33 @@ MonoBehaviour:
     m_Aspect: 0
   m_HasValidSHForNormalization: 1
   m_SHForNormalization:
-    sh[ 0]: 485.174
-    sh[ 1]: -76.71875
-    sh[ 2]: 312.67465
-    sh[ 3]: -26.492702
-    sh[ 4]: 22.269913
-    sh[ 5]: -54.777275
-    sh[ 6]: 12.531159
-    sh[ 7]: -18.561357
-    sh[ 8]: -26.222153
-    sh[ 9]: 361.41376
-    sh[10]: 10.532513
-    sh[11]: 205.75505
-    sh[12]: -3.3929377
-    sh[13]: 18.010075
-    sh[14]: -27.132782
-    sh[15]: 5.341551
-    sh[16]: -9.510015
-    sh[17]: -24.483017
-    sh[18]: 331.77948
-    sh[19]: 120.80915
-    sh[20]: 143.51064
-    sh[21]: 21.553871
-    sh[22]: 19.31308
-    sh[23]: -4.458482
-    sh[24]: -1.0891697
-    sh[25]: -3.0089557
-    sh[26]: -29.858181
+    sh[ 0]: 488.19434
+    sh[ 1]: -47.21123
+    sh[ 2]: 314.80038
+    sh[ 3]: -48.711502
+    sh[ 4]: 21.11597
+    sh[ 5]: -48.46098
+    sh[ 6]: 11.405018
+    sh[ 7]: -22.062315
+    sh[ 8]: -23.102404
+    sh[ 9]: 362.33392
+    sh[10]: 28.711382
+    sh[11]: 205.18253
+    sh[12]: -15.606405
+    sh[13]: 17.805311
+    sh[14]: -23.742785
+    sh[15]: 4.689763
+    sh[16]: -11.619981
+    sh[17]: -22.174524
+    sh[18]: 332.83228
+    sh[19]: 133.47104
+    sh[20]: 138.99135
+    sh[21]: 15.339779
+    sh[22]: 19.905012
+    sh[23]: -3.249647
+    sh[24]: -1.7556328
+    sh[25]: -3.8546414
+    sh[26]: -28.474255
   m_SHValidForCapturePosition: {x: -1.606, y: 1.288, z: -4.961}
   m_SHValidForSourcePosition: {x: -1.606, y: 1.288, z: -4.961}
   m_HDProbeVersion: 3
@@ -6556,6 +6588,7 @@ MonoBehaviour:
         sssQualityMode: 0
         sssQualityLevel: 0
         sssCustomSampleBudget: 20
+        sssCustomDownsampleSteps: 0
         msaaMode: 1
         materialQuality: 0
       renderingPathCustomFrameSettingsOverrideMask:
@@ -6659,7 +6692,7 @@ MonoBehaviour:
     camera:
       camera: 0
   m_ProxyVolume: {fileID: 987584266}
-  m_BakedTexture: {fileID: 8900000, guid: f45eb5a27bc46d145be28d4a4b330f89, type: 3}
+  m_BakedTexture: {fileID: 8900000, guid: c8b25dcadcdfa534bb038a929f866c8b, type: 3}
   m_CustomTexture: {fileID: 0}
   m_BakedRenderData:
     m_WorldToCameraRHS:
@@ -6741,33 +6774,33 @@ MonoBehaviour:
     m_Aspect: 0
   m_HasValidSHForNormalization: 1
   m_SHForNormalization:
-    sh[ 0]: 231.72287
-    sh[ 1]: -67.58828
-    sh[ 2]: -116.40815
-    sh[ 3]: -81.71142
-    sh[ 4]: 19.890614
-    sh[ 5]: 19.502918
-    sh[ 6]: 4.9498606
-    sh[ 7]: 27.381502
-    sh[ 8]: -2.072782
-    sh[ 9]: 147.53029
-    sh[10]: -39.952637
-    sh[11]: -79.41116
-    sh[12]: -50.9637
-    sh[13]: 12.052712
-    sh[14]: 10.349319
-    sh[15]: 3.468491
-    sh[16]: 17.158829
-    sh[17]: -1.4302918
-    sh[18]: 101.12556
-    sh[19]: -19.564667
-    sh[20]: -62.1427
-    sh[21]: -30.773157
-    sh[22]: 6.6995835
-    sh[23]: 2.6417766
-    sh[24]: 3.0140672
-    sh[25]: 10.516558
-    sh[26]: -1.34141
+    sh[ 0]: 233.98976
+    sh[ 1]: -53.269135
+    sh[ 2]: -146.00505
+    sh[ 3]: -76.28157
+    sh[ 4]: 16.234648
+    sh[ 5]: 24.698977
+    sh[ 6]: 6.6223564
+    sh[ 7]: 28.420849
+    sh[ 8]: -3.2225306
+    sh[ 9]: 145.86284
+    sh[10]: -35.481586
+    sh[11]: -91.15497
+    sh[12]: -46.781982
+    sh[13]: 10.223654
+    sh[14]: 13.774244
+    sh[15]: 4.439717
+    sh[16]: 17.826675
+    sh[17]: -2.179138
+    sh[18]: 94.71787
+    sh[19]: -24.394749
+    sh[20]: -58.700348
+    sh[21]: -27.104755
+    sh[22]: 6.2105155
+    sh[23]: 5.956235
+    sh[24]: 3.2584536
+    sh[25]: 11.005516
+    sh[26]: -1.8078507
   m_SHValidForCapturePosition: {x: 0, y: 5.62, z: 10.383014}
   m_SHValidForSourcePosition: {x: 0, y: 5.7788343, z: 10.535}
   m_HDProbeVersion: 3
@@ -7534,6 +7567,55 @@ LightProbeGroup:
   - {x: 3.895953, y: 0.53947866, z: -6.5975432}
   - {x: 3.895953, y: 0.7340851, z: -11.628909}
   m_Dering: 1
+--- !u!1 &1730862715
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1730862717}
+  - component: {fileID: 1730862716}
+  m_Layer: 0
+  m_Name: Pathtracing Settings
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &1730862716
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1730862715}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 172515602e62fb746b5d573b38a5fe58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IsGlobal: 1
+  priority: 0
+  blendDistance: 0
+  weight: 1
+  sharedProfile: {fileID: 11400000, guid: 5595bdb2ccb91774c808fe3c08a606f2, type: 2}
+--- !u!4 &1730862717
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1730862715}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1834504469
 GameObject:
   m_ObjectHideFlags: 0
@@ -7656,6 +7738,7 @@ MonoBehaviour:
         sssQualityMode: 0
         sssQualityLevel: 0
         sssCustomSampleBudget: 20
+        sssCustomDownsampleSteps: 0
         msaaMode: 1
         materialQuality: 0
       renderingPathCustomFrameSettingsOverrideMask:
@@ -7759,7 +7842,7 @@ MonoBehaviour:
     camera:
       camera: 0
   m_ProxyVolume: {fileID: 0}
-  m_BakedTexture: {fileID: 8900000, guid: ff9e7b2f562503b4c8d56dc3bbda121d, type: 3}
+  m_BakedTexture: {fileID: 8900000, guid: e8e1bd101bc7af74ca8380e8bdf79927, type: 3}
   m_CustomTexture: {fileID: 0}
   m_BakedRenderData:
     m_WorldToCameraRHS:
@@ -7841,33 +7924,33 @@ MonoBehaviour:
     m_Aspect: 0
   m_HasValidSHForNormalization: 1
   m_SHForNormalization:
-    sh[ 0]: 997.037
-    sh[ 1]: -122.41525
-    sh[ 2]: 183.9687
-    sh[ 3]: -384.01877
-    sh[ 4]: 162.34065
-    sh[ 5]: -27.062489
-    sh[ 6]: -14.286662
-    sh[ 7]: -35.647114
-    sh[ 8]: -71.89901
-    sh[ 9]: 792.5708
-    sh[10]: 121.17976
-    sh[11]: 95.630295
-    sh[12]: -238.3814
-    sh[13]: 111.07011
-    sh[14]: -27.850971
-    sh[15]: -14.471245
-    sh[16]: -22.367754
-    sh[17]: -81.54536
-    sh[18]: 826.7358
-    sh[19]: 482.08453
-    sh[20]: 1.0874681
-    sh[21]: -128.74042
-    sh[22]: 86.4491
-    sh[23]: -54.148014
-    sh[24]: -20.732786
-    sh[25]: -15.845656
-    sh[26]: -125.55838
+    sh[ 0]: 978.6936
+    sh[ 1]: -122.52134
+    sh[ 2]: 150.62508
+    sh[ 3]: -411.18735
+    sh[ 4]: 136.55344
+    sh[ 5]: -30.432302
+    sh[ 6]: -6.839575
+    sh[ 7]: -39.05293
+    sh[ 8]: -65.53038
+    sh[ 9]: 773.939
+    sh[10]: 109.61706
+    sh[11]: 72.1527
+    sh[12]: -252.45654
+    sh[13]: 95.262314
+    sh[14]: -35.193516
+    sh[15]: -8.586848
+    sh[16]: -26.234041
+    sh[17]: -75.72542
+    sh[18]: 806.73315
+    sh[19]: 464.69907
+    sh[20]: -23.82043
+    sh[21]: -134.51251
+    sh[22]: 76.59425
+    sh[23]: -66.085556
+    sh[24]: -15.058991
+    sh[25]: -19.09177
+    sh[26]: -120.14515
   m_SHValidForCapturePosition: {x: -0.18611145, y: 5.9465294, z: 0}
   m_SHValidForSourcePosition: {x: -0.18611145, y: 5.9465294, z: 0}
   m_HDProbeVersion: 3
@@ -8116,6 +8199,7 @@ MonoBehaviour:
         sssQualityMode: 0
         sssQualityLevel: 0
         sssCustomSampleBudget: 20
+        sssCustomDownsampleSteps: 0
         msaaMode: 1
         materialQuality: 0
       renderingPathCustomFrameSettingsOverrideMask:
@@ -8219,7 +8303,7 @@ MonoBehaviour:
     camera:
       camera: 0
   m_ProxyVolume: {fileID: 0}
-  m_BakedTexture: {fileID: 8900000, guid: ce919272a4f223447b7c4800b0b83cc9, type: 3}
+  m_BakedTexture: {fileID: 8900000, guid: b15c1ed969a552342bca66b35a8916b8, type: 3}
   m_CustomTexture: {fileID: 0}
   m_BakedRenderData:
     m_WorldToCameraRHS:
@@ -8301,33 +8385,33 @@ MonoBehaviour:
     m_Aspect: 0
   m_HasValidSHForNormalization: 1
   m_SHForNormalization:
-    sh[ 0]: 922.54095
-    sh[ 1]: -128.10246
-    sh[ 2]: 169.42776
-    sh[ 3]: -396.7042
-    sh[ 4]: 83.70459
-    sh[ 5]: -7.0825505
-    sh[ 6]: -5.1712427
-    sh[ 7]: -24.67426
-    sh[ 8]: -26.482405
-    sh[ 9]: 721.3399
-    sh[10]: 58.020267
-    sh[11]: 104.450226
-    sh[12]: -248.30965
-    sh[13]: 54.068214
-    sh[14]: -8.869383
-    sh[15]: -5.4413915
-    sh[16]: -16.535345
-    sh[17]: -35.022816
-    sh[18]: 743.8696
-    sh[19]: 338.4855
-    sh[20]: 28.18356
-    sh[21]: -145.73491
-    sh[22]: 36.03604
-    sh[23]: -25.88715
-    sh[24]: -9.354617
-    sh[25]: -11.56951
-    sh[26]: -62.853607
+    sh[ 0]: 914.00195
+    sh[ 1]: -121.93603
+    sh[ 2]: 163.54413
+    sh[ 3]: -384.98517
+    sh[ 4]: 127.07437
+    sh[ 5]: -12.378416
+    sh[ 6]: -7.585852
+    sh[ 7]: -39.81805
+    sh[ 8]: -50.511562
+    sh[ 9]: 716.9322
+    sh[10]: 89.48185
+    sh[11]: 88.56101
+    sh[12]: -242.85379
+    sh[13]: 82.64959
+    sh[14]: -15.557347
+    sh[15]: -9.214175
+    sh[16]: -24.408533
+    sh[17]: -62.288284
+    sh[18]: 749.3408
+    sh[19]: 417.15112
+    sh[20]: 0.88044345
+    sh[21]: -142.04459
+    sh[22]: 56.977184
+    sh[23]: -43.066822
+    sh[24]: -15.563217
+    sh[25]: -14.8559675
+    sh[26]: -104.7873
   m_SHValidForCapturePosition: {x: 0, y: 5.79, z: 0}
   m_SHValidForSourcePosition: {x: 0, y: 5.79, z: 0}
   m_HDProbeVersion: 3
@@ -8576,6 +8660,8 @@ MonoBehaviour:
   stopNaNs: 0
   taaSharpenStrength: 0.5
   TAAQuality: 1
+  taaSharpenMode: 0
+  taaRingingReduction: 0
   taaHistorySharpening: 0.35
   taaAntiFlicker: 0.5
   taaMotionVectorRejection: 0
@@ -8626,6 +8712,7 @@ MonoBehaviour:
     sssQualityMode: 0
     sssQualityLevel: 0
     sssCustomSampleBudget: 20
+    sssCustomDownsampleSteps: 0
     msaaMode: 1
     materialQuality: 0
   renderingPathCustomFrameSettingsOverrideMask:
@@ -8752,8 +8839,72 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: -10, y: 0, z: 0}
+--- !u!1 &1898773238
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1898773240}
+  - component: {fileID: 1898773239}
+  m_Layer: 0
+  m_Name: Raytracing Settings
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1898773239
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1898773238}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 172515602e62fb746b5d573b38a5fe58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IsGlobal: 1
+  priority: 0
+  blendDistance: 0
+  weight: 1
+  sharedProfile: {fileID: 11400000, guid: b7862b06956465140a8339e7bbf74f63, type: 2}
+--- !u!4 &1898773240
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1898773238}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!115 &1952542371
+MonoScript:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  serializedVersion: 7
+  m_DefaultReferences: {}
+  m_Icon: {fileID: 0}
+  m_Type: 0
+  m_ExecutionOrder: 0
+  m_ClassName: SceneObjectIDMapSceneAsset
+  m_Namespace: UnityEngine.Rendering.HighDefinition
+  m_AssemblyName: Unity.RenderPipelines.HighDefinition.Runtime
 --- !u!1 &1986150186
 GameObject:
   m_ObjectHideFlags: 0
@@ -8878,6 +9029,7 @@ MonoBehaviour:
         sssQualityMode: 0
         sssQualityLevel: 0
         sssCustomSampleBudget: 20
+        sssCustomDownsampleSteps: 0
         msaaMode: 1
         materialQuality: 0
       renderingPathCustomFrameSettingsOverrideMask:
@@ -8981,7 +9133,7 @@ MonoBehaviour:
     camera:
       camera: 0
   m_ProxyVolume: {fileID: 0}
-  m_BakedTexture: {fileID: 8900000, guid: 5aa47bcce9900144ea16daa9f8761f62, type: 3}
+  m_BakedTexture: {fileID: 8900000, guid: 90dabeb7d46bd4e4c8e48172d7958125, type: 3}
   m_CustomTexture: {fileID: 0}
   m_BakedRenderData:
     m_WorldToCameraRHS:
@@ -9063,33 +9215,33 @@ MonoBehaviour:
     m_Aspect: 0
   m_HasValidSHForNormalization: 1
   m_SHForNormalization:
-    sh[ 0]: 1620.3418
-    sh[ 1]: -1092.4995
-    sh[ 2]: -40.608017
-    sh[ 3]: -554.1797
-    sh[ 4]: 254.58113
-    sh[ 5]: 71.339714
-    sh[ 6]: -21.052141
-    sh[ 7]: 23.28458
-    sh[ 8]: -181.83621
-    sh[ 9]: 1054.8134
-    sh[10]: -586.88525
-    sh[11]: -49.478786
-    sh[12]: -331.7949
-    sh[13]: 165.27693
-    sh[14]: 31.046394
-    sh[15]: -17.789665
-    sh[16]: 12.145372
-    sh[17]: -125.69946
-    sh[18]: 752.0441
-    sh[19]: -155.93097
-    sh[20]: -88.732834
-    sh[21]: -161.05469
-    sh[22]: 116.907555
-    sh[23]: -20.584637
-    sh[24]: -19.051579
-    sh[25]: -0.70088106
-    sh[26]: -108.277954
+    sh[ 0]: 1650.8478
+    sh[ 1]: -1136.2084
+    sh[ 2]: -21.9711
+    sh[ 3]: -542.5919
+    sh[ 4]: 257.69595
+    sh[ 5]: 43.768127
+    sh[ 6]: -24.975485
+    sh[ 7]: 31.22348
+    sh[ 8]: -183.97392
+    sh[ 9]: 1078.443
+    sh[10]: -600.98895
+    sh[11]: -35.36013
+    sh[12]: -322.37808
+    sh[13]: 167.14697
+    sh[14]: 9.995877
+    sh[15]: -20.46746
+    sh[16]: 14.925622
+    sh[17]: -127.81031
+    sh[18]: 781.485
+    sh[19]: -149.05074
+    sh[20]: -82.05995
+    sh[21]: -152.18724
+    sh[22]: 117.801094
+    sh[23]: -36.364883
+    sh[24]: -20.504812
+    sh[25]: 0.4539696
+    sh[26]: -110.78059
   m_SHValidForCapturePosition: {x: -1.606, y: 1.288, z: 4.874}
   m_SHValidForSourcePosition: {x: -1.606, y: 1.288, z: 4.874}
   m_HDProbeVersion: 3
@@ -9401,6 +9553,7 @@ MonoBehaviour:
         sssQualityMode: 0
         sssQualityLevel: 0
         sssCustomSampleBudget: 20
+        sssCustomDownsampleSteps: 0
         msaaMode: 1
         materialQuality: 0
       renderingPathCustomFrameSettingsOverrideMask:
@@ -9504,7 +9657,7 @@ MonoBehaviour:
     camera:
       camera: 0
   m_ProxyVolume: {fileID: 0}
-  m_BakedTexture: {fileID: 8900000, guid: 9f55fbf8bd01bcf408ea195fa62f9c4f, type: 3}
+  m_BakedTexture: {fileID: 8900000, guid: d3f9018e837ba9d43840fa636d9c91d5, type: 3}
   m_CustomTexture: {fileID: 0}
   m_BakedRenderData:
     m_WorldToCameraRHS:
@@ -9586,33 +9739,33 @@ MonoBehaviour:
     m_Aspect: 0
   m_HasValidSHForNormalization: 1
   m_SHForNormalization:
-    sh[ 0]: 1376.0765
-    sh[ 1]: 198.91129
-    sh[ 2]: 56.190315
-    sh[ 3]: -148.11055
-    sh[ 4]: 135.30925
-    sh[ 5]: -30.296595
-    sh[ 6]: -6.4805136
-    sh[ 7]: -14.7094345
-    sh[ 8]: -50.507896
-    sh[ 9]: 1380.1053
-    sh[10]: 533.4526
-    sh[11]: -27.295698
-    sh[12]: -28.598167
-    sh[13]: 119.8764
-    sh[14]: -41.36462
-    sh[15]: -6.3410215
-    sh[16]: -14.311951
-    sh[17]: -64.49502
-    sh[18]: 1899.4115
-    sh[19]: 1163.1454
-    sh[20]: -176.58867
-    sh[21]: 87.99246
-    sh[22]: 130.2752
-    sh[23]: -83.02397
-    sh[24]: -9.060236
-    sh[25]: -19.599754
-    sh[26]: -107.52626
+    sh[ 0]: 1405.6664
+    sh[ 1]: 242.90846
+    sh[ 2]: 68.5831
+    sh[ 3]: -136.21465
+    sh[ 4]: 141.54749
+    sh[ 5]: -46.58939
+    sh[ 6]: -5.9083867
+    sh[ 7]: -23.870707
+    sh[ 8]: -55.790962
+    sh[ 9]: 1420.4456
+    sh[10]: 581.8456
+    sh[11]: -25.420341
+    sh[12]: -11.548777
+    sh[13]: 128.9259
+    sh[14]: -54.12578
+    sh[15]: -6.8983936
+    sh[16]: -21.180244
+    sh[17]: -69.868256
+    sh[18]: 1953.4889
+    sh[19]: 1222.4857
+    sh[20]: -184.61041
+    sh[21]: 111.18255
+    sh[22]: 141.86145
+    sh[23]: -94.154854
+    sh[24]: -10.425753
+    sh[25]: -24.80911
+    sh[26]: -113.06113
   m_SHValidForCapturePosition: {x: 0.068823814, y: 9.909523, z: -0.11653519}
   m_SHValidForSourcePosition: {x: 0.068823814, y: 9.909523, z: -0.11653519}
   m_HDProbeVersion: 3
@@ -9859,6 +10012,7 @@ MonoBehaviour:
         sssQualityMode: 0
         sssQualityLevel: 0
         sssCustomSampleBudget: 20
+        sssCustomDownsampleSteps: 0
         msaaMode: 1
         materialQuality: 0
       renderingPathCustomFrameSettingsOverrideMask:
@@ -9962,7 +10116,7 @@ MonoBehaviour:
     camera:
       camera: 0
   m_ProxyVolume: {fileID: 0}
-  m_BakedTexture: {fileID: 8900000, guid: d05eafbac5bdc7741b7afe2bfb445188, type: 3}
+  m_BakedTexture: {fileID: 8900000, guid: a06e729835657954d9268455a2fa5db9, type: 3}
   m_CustomTexture: {fileID: 0}
   m_BakedRenderData:
     m_WorldToCameraRHS:
@@ -10044,33 +10198,33 @@ MonoBehaviour:
     m_Aspect: 0
   m_HasValidSHForNormalization: 1
   m_SHForNormalization:
-    sh[ 0]: 628.2999
-    sh[ 1]: -220.22014
-    sh[ 2]: 85.26584
-    sh[ 3]: 330.3805
-    sh[ 4]: -119.28226
-    sh[ 5]: -18.306858
-    sh[ 6]: -5.8945684
-    sh[ 7]: 19.814602
-    sh[ 8]: 3.7355032
-    sh[ 9]: 365.06607
-    sh[10]: -140.81749
-    sh[11]: 49.345276
-    sh[12]: 202.09372
-    sh[13]: -72.11314
-    sh[14]: -10.955658
-    sh[15]: -3.4767902
-    sh[16]: 11.643177
-    sh[17]: 3.1570225
-    sh[18]: 194.28665
-    sh[19]: -85.23918
-    sh[20]: 26.447798
-    sh[21]: 116.82734
-    sh[22]: -40.6968
-    sh[23]: -6.068906
-    sh[24]: -1.9568381
-    sh[25]: 6.3812165
-    sh[26]: 2.5759246
+    sh[ 0]: 583.70776
+    sh[ 1]: -199.8318
+    sh[ 2]: 47.34641
+    sh[ 3]: 312.71274
+    sh[ 4]: -102.026726
+    sh[ 5]: -14.518005
+    sh[ 6]: -5.290708
+    sh[ 7]: 20.144787
+    sh[ 8]: 3.1479602
+    sh[ 9]: 339.3334
+    sh[10]: -127.50315
+    sh[11]: 30.356321
+    sh[12]: 190.7304
+    sh[13]: -61.865803
+    sh[14]: -8.566395
+    sh[15]: -3.0217133
+    sh[16]: 11.657735
+    sh[17]: 2.3939376
+    sh[18]: 182.52063
+    sh[19]: -79.67277
+    sh[20]: 18.778797
+    sh[21]: 110.90607
+    sh[22]: -35.73436
+    sh[23]: -4.9915643
+    sh[24]: -1.5952992
+    sh[25]: 6.387687
+    sh[26]: 1.9391286
   m_SHValidForCapturePosition: {x: -4, y: 1.6829665, z: 0}
   m_SHValidForSourcePosition: {x: -4, y: 1.6829665, z: 0}
   m_HDProbeVersion: 3
@@ -10225,6 +10379,99 @@ Transform:
   m_Father: {fileID: 552323008}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2011170840
+GameObject:
+  m_ObjectHideFlags: 19
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2011170842}
+  - component: {fileID: 2011170841}
+  m_Layer: 0
+  m_Name: SceneIDMap
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2011170841
+MonoBehaviour:
+  m_ObjectHideFlags: 19
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2011170840}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 816844347}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Entries:
+  - id: 0
+    category: 0
+    gameObject: {fileID: 1836035709}
+  - id: 1
+    category: 0
+    gameObject: {fileID: 2010359574}
+  - id: 2
+    category: 0
+    gameObject: {fileID: 1465520419}
+  - id: 3
+    category: 0
+    gameObject: {fileID: 1213580496}
+  - id: 4
+    category: 0
+    gameObject: {fileID: 1991798231}
+  - id: 5
+    category: 0
+    gameObject: {fileID: 1834504469}
+  - id: 6
+    category: 0
+    gameObject: {fileID: 1371376611}
+  - id: 7
+    category: 0
+    gameObject: {fileID: 2080379982}
+  - id: 8
+    category: 0
+    gameObject: {fileID: 1585892274}
+  - id: 9
+    category: 0
+    gameObject: {fileID: 1553431996}
+  - id: 10
+    category: 0
+    gameObject: {fileID: 956065536}
+  - id: 11
+    category: 0
+    gameObject: {fileID: 963748519}
+  - id: 12
+    category: 0
+    gameObject: {fileID: 1038729460}
+  - id: 13
+    category: 0
+    gameObject: {fileID: 352221574}
+  - id: 14
+    category: 0
+    gameObject: {fileID: 1986150186}
+  - id: 15
+    category: 0
+    gameObject: {fileID: 1630564728}
+--- !u!4 &2011170842
+Transform:
+  m_ObjectHideFlags: 19
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2011170840}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 16
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2080379982
 GameObject:
   m_ObjectHideFlags: 0
@@ -10347,6 +10594,7 @@ MonoBehaviour:
         sssQualityMode: 0
         sssQualityLevel: 0
         sssCustomSampleBudget: 20
+        sssCustomDownsampleSteps: 0
         msaaMode: 1
         materialQuality: 0
       renderingPathCustomFrameSettingsOverrideMask:
@@ -10450,7 +10698,7 @@ MonoBehaviour:
     camera:
       camera: 0
   m_ProxyVolume: {fileID: 987584266}
-  m_BakedTexture: {fileID: 8900000, guid: d754586a741f9b44c9c457bc8ad8390e, type: 3}
+  m_BakedTexture: {fileID: 8900000, guid: 252d89d3be2e3434a8521c31244c25e3, type: 3}
   m_CustomTexture: {fileID: 0}
   m_BakedRenderData:
     m_WorldToCameraRHS:
@@ -10532,33 +10780,33 @@ MonoBehaviour:
     m_Aspect: 0
   m_HasValidSHForNormalization: 1
   m_SHForNormalization:
-    sh[ 0]: 91.06853
-    sh[ 1]: -1.0449029
-    sh[ 2]: 59.234524
-    sh[ 3]: -11.853847
-    sh[ 4]: 1.7258645
-    sh[ 5]: -1.5802902
-    sh[ 6]: 4.5724764
-    sh[ 7]: -8.030874
-    sh[ 8]: -0.8923056
-    sh[ 9]: 60.176384
-    sh[10]: 0.0030101144
-    sh[11]: 40.76363
-    sh[12]: -7.851825
-    sh[13]: 1.0854232
-    sh[14]: -0.047600392
-    sh[15]: 3.1077847
-    sh[16]: -4.827269
-    sh[17]: -0.6353945
-    sh[18]: 43.93205
-    sh[19]: 0.5466119
-    sh[20]: 32.415356
-    sh[21]: -5.431914
-    sh[22]: 0.56437355
-    sh[23]: 1.1868249
-    sh[24]: 2.3480062
-    sh[25]: -2.769568
-    sh[26]: -0.62384206
+    sh[ 0]: 93.76702
+    sh[ 1]: 6.374762
+    sh[ 2]: 79.25871
+    sh[ 3]: -19.306124
+    sh[ 4]: -0.47696954
+    sh[ 5]: 0.41151446
+    sh[ 6]: 6.491719
+    sh[ 7]: -10.7771015
+    sh[ 8]: -0.08861647
+    sh[ 9]: 63.578564
+    sh[10]: 3.924447
+    sh[11]: 55.127274
+    sh[12]: -12.909811
+    sh[13]: -0.35122406
+    sh[14]: 0.7705892
+    sh[15]: 4.4051504
+    sh[16]: -7.108471
+    sh[17]: -0.13780327
+    sh[18]: 45.253883
+    sh[19]: 2.834289
+    sh[20]: 40.88064
+    sh[21]: -8.594729
+    sh[22]: -0.25623572
+    sh[23]: 1.3352402
+    sh[24]: 3.1311512
+    sh[25]: -4.6274953
+    sh[26]: -0.23313326
   m_SHValidForCapturePosition: {x: 0, y: 5.62, z: -10.376203}
   m_SHValidForSourcePosition: {x: 0, y: 5.7788343, z: -10.535}
   m_HDProbeVersion: 3
