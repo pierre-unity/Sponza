@@ -796,6 +796,7 @@ MonoBehaviour:
   m_Script: {fileID: 1409336706}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_Entries: []
 --- !u!4 &112764840
 Transform:
   m_ObjectHideFlags: 19
@@ -1615,6 +1616,7 @@ MonoBehaviour:
   m_Script: {fileID: 784506983}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_Entries: []
 --- !u!4 &330444515
 Transform:
   m_ObjectHideFlags: 19
@@ -2251,6 +2253,7 @@ MonoBehaviour:
   m_Script: {fileID: 1597330353}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_Entries: []
 --- !u!4 &695022874
 Transform:
   m_ObjectHideFlags: 19
@@ -4705,6 +4708,7 @@ MonoBehaviour:
   m_Script: {fileID: 1952542371}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_Entries: []
 --- !u!4 &984107557
 Transform:
   m_ObjectHideFlags: 19
@@ -5313,7 +5317,7 @@ MonoBehaviour:
   m_ShadowResolution:
     m_Override: 4096
     m_UseOverride: 0
-    m_Level: 0
+    m_Level: 3
   m_ShadowDimmer: 1
   m_VolumetricShadowDimmer: 1
   m_ShadowFadeDistance: 10000
