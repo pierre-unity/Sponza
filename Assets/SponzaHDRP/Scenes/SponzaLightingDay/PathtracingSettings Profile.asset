@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: PathtracingSettings Profile
   m_EditorClassIdentifier: 
   components:
-  - {fileID: 4501998190012083213}
---- !u!114 &4501998190012083213
+  - {fileID: 2971735782206454344}
+--- !u!114 &2971735782206454344
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -37,13 +37,13 @@ MonoBehaviour:
       m_Bits: 4294967295
   maximumSamples:
     m_OverrideState: 1
-    m_Value: 20
+    m_Value: 1000
   minimumDepth:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: 1
   maximumDepth:
     m_OverrideState: 1
-    m_Value: 4
+    m_Value: 8
   maximumIntensity:
     m_OverrideState: 1
     m_Value: 1000
